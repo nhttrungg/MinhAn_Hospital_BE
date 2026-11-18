@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "templateVersion": "1.0.0",
+  "logo": "assets/minh-an-logo.png",
+  "preview": "preview.html",
+  "templates": [
+    {
+      "type": "EXAMINATION_TICKET",
+      "file": "examination-ticket.json",
+      "title": "PHIẾU TIẾP NHẬN / KHÁM BỆNH"
+    },
+    {
+      "type": "DIAGNOSTIC_ORDER",
+      "file": "diagnostic-order.json",
+      "title": "PHIẾU CHỈ ĐỊNH CẬN LÂM SÀNG"
+    },
+    {
+      "type": "EXAMINATION_RESULT",
+      "file": "examination-result.json",
+      "title": "PHIẾU KẾT QUẢ KHÁM BỆNH"
+    },
+    {
+      "type": "DIAGNOSTIC_RESULT",
+      "file": "diagnostic-result.json",
+      "title": "PHIẾU KẾT QUẢ CẬN LÂM SÀNG"
+    },
+    {
+      "type": "PRESCRIPTION",
+      "file": "prescription.json",
+      "title": "ĐƠN THUỐC"
+    },
+    {
+      "type": "PICKING_TICKET",
+      "file": "picking-ticket.json",
+      "title": "PHIẾU SOẠN THUỐC"
+    },
+    {
+      "type": "DISPENSING_TICKET",
+      "file": "dispensing-ticket.json",
+      "title": "PHIẾU CẤP THUỐC"
+    },
+    {
+      "type": "RECEIPT",
+      "file": "receipt.json",
+      "title": "BIÊN LAI THU TIỀN"
+    }
+  ]
+}

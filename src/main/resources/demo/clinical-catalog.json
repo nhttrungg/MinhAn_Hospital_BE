@@ -1,0 +1,2048 @@
+{
+  "notice": "DEMO — NOT FOR CLINICAL USE",
+  "archiveSha256": "91c6c9d1117764ce72375a0f3a5493b1725dafbc1ab283b55799076c9e194965",
+  "codes": [
+    {
+      "code": "A00.0",
+      "nameVi": "Cholera due to Vibrio cholerae 01, biovar cholerae",
+      "nameEn": "Cholera due to Vibrio cholerae 01, biovar cholerae",
+      "chapter": "A",
+      "sourceSystem": "ICD-10-CM-FY2027",
+      "sourceUrl": "https://www.cms.gov/files/zip/2027-code-descriptions-tabular-order.zip",
+      "demo": true
+    },
+    {
+      "code": "B00.0",
+      "nameVi": "Eczema herpeticum",
+      "nameEn": "Eczema herpeticum",
+      "chapter": "B",
+      "sourceSystem": "ICD-10-CM-FY2027",
+      "sourceUrl": "https://www.cms.gov/files/zip/2027-code-descriptions-tabular-order.zip",
+      "demo": true
+    },
+    {
+      "code": "B00.1",
+      "nameVi": "Herpesviral vesicular dermatitis",
+      "nameEn": "Herpesviral vesicular dermatitis",
+      "chapter": "B",
+      "sourceSystem": "ICD-10-CM-FY2027",
+      "sourceUrl": "https://www.cms.gov/files/zip/2027-code-descriptions-tabular-order.zip",
+      "demo": true
+    },
+    {
+      "code": "B00.2",
+      "nameVi": "Herpesviral gingivostomatitis and pharyngotonsillitis",
+      "nameEn": "Herpesviral gingivostomatitis and pharyngotonsillitis",
+      "chapter": "B",
+      "sourceSystem": "ICD-10-CM-FY2027",
+      "sourceUrl": "https://www.cms.gov/files/zip/2027-code-descriptions-tabular-order.zip",
+      "demo": true
+    },
+    {
+      "code": "B00.3",
+      "nameVi": "Herpesviral meningitis",
+      "nameEn": "Herpesviral meningitis",
+      "chapter": "B",
+      "sourceSystem": "ICD-10-CM-FY2027",
+      "sourceUrl": "https://www.cms.gov/files/zip/2027-code-descriptions-tabular-order.zip",
+      "demo": true
+    },
+    {
+      "code": "B00.4",
+      "nameVi": "Herpesviral encephalitis",
+      "nameEn": "Herpesviral encephalitis",
+      "chapter": "B",
+      "sourceSystem": "ICD-10-CM-FY2027",
+      "sourceUrl": "https://www.cms.gov/files/zip/2027-code-descriptions-tabular-order.zip",
+      "demo": true
+    },
+    {
+      "code": "B00.7",
+      "nameVi": "Disseminated herpesviral disease",
+      "nameEn": "Disseminated herpesviral disease",
+      "chapter": "B",
+      "sourceSystem": "ICD-10-CM-FY2027",
+      "sourceUrl": "https://www.cms.gov/files/zip/2027-code-descriptions-tabular-order.zip",
+      "demo": true
+    },
+    {
+      "code": "B00.9",
+      "nameVi": "Herpesviral infection, unspecified",
+      "nameEn": "Herpesviral infection, unspecified",
+      "chapter": "B",
+      "sourceSystem": "ICD-10-CM-FY2027",
+      "sourceUrl": "https://www.cms.gov/files/zip/2027-code-descriptions-tabular-order.zip",
+      "demo": true
+    },
+    {
+      "code": "B01.0",
+      "nameVi": "Varicella meningitis",
+      "nameEn": "Varicella meningitis",
+      "chapter": "B",
+      "sourceSystem": "ICD-10-CM-FY2027",
+      "sourceUrl": "https://www.cms.gov/files/zip/2027-code-descriptions-tabular-order.zip",
+      "demo": true
+    },
+    {
+      "code": "B01.2",
+      "nameVi": "Varicella pneumonia",
+      "nameEn": "Varicella pneumonia",
+      "chapter": "B",
+      "sourceSystem": "ICD-10-CM-FY2027",
+      "sourceUrl": "https://www.cms.gov/files/zip/2027-code-descriptions-tabular-order.zip",
+      "demo": true
+    },
+    {
+      "code": "B01.9",
+      "nameVi": "Varicella without complication",
+      "nameEn": "Varicella without complication",
+      "chapter": "B",
+      "sourceSystem": "ICD-10-CM-FY2027",
+      "sourceUrl": "https://www.cms.gov/files/zip/2027-code-descriptions-tabular-order.zip",
+      "demo": true
+    },
+    {
+      "code": "B02.0",
+      "nameVi": "Zoster encephalitis",
+      "nameEn": "Zoster encephalitis",
+      "chapter": "B",
+      "sourceSystem": "ICD-10-CM-FY2027",
+      "sourceUrl": "https://www.cms.gov/files/zip/2027-code-descriptions-tabular-order.zip",
+      "demo": true
+    },
+    {
+      "code": "B02.1",
+      "nameVi": "Zoster meningitis",
+      "nameEn": "Zoster meningitis",
+      "chapter": "B",
+      "sourceSystem": "ICD-10-CM-FY2027",
+      "sourceUrl": "https://www.cms.gov/files/zip/2027-code-descriptions-tabular-order.zip",
+      "demo": true
+    },
+    {
+      "code": "B02.7",
+      "nameVi": "Disseminated zoster",
+      "nameEn": "Disseminated zoster",
+      "chapter": "B",
+      "sourceSystem": "ICD-10-CM-FY2027",
+      "sourceUrl": "https://www.cms.gov/files/zip/2027-code-descriptions-tabular-order.zip",
+      "demo": true
+    },
+    {
+      "code": "B02.8",
+      "nameVi": "Zoster with other complications",
+      "nameEn": "Zoster with other complications",
+      "chapter": "B",
+      "sourceSystem": "ICD-10-CM-FY2027",
+      "sourceUrl": "https://www.cms.gov/files/zip/2027-code-descriptions-tabular-order.zip",
+      "demo": true
+    },
+    {
+      "code": "B02.9",
+      "nameVi": "Zoster without complications",
+      "nameEn": "Zoster without complications",
+      "chapter": "B",
+      "sourceSystem": "ICD-10-CM-FY2027",
+      "sourceUrl": "https://www.cms.gov/files/zip/2027-code-descriptions-tabular-order.zip",
+      "demo": true
+    },
+    {
+      "code": "B03",
+      "nameVi": "Smallpox",
+      "nameEn": "Smallpox",
+      "chapter": "B",
+      "sourceSystem": "ICD-10-CM-FY2027",
+      "sourceUrl": "https://www.cms.gov/files/zip/2027-code-descriptions-tabular-order.zip",
+      "demo": true
+    },
+    {
+      "code": "B04",
+      "nameVi": "Monkeypox",
+      "nameEn": "Monkeypox",
+      "chapter": "B",
+      "sourceSystem": "ICD-10-CM-FY2027",
+      "sourceUrl": "https://www.cms.gov/files/zip/2027-code-descriptions-tabular-order.zip",
+      "demo": true
+    },
+    {
+      "code": "B34.9",
+      "nameVi": "Viral infection, unspecified",
+      "nameEn": "Viral infection, unspecified",
+      "chapter": "B",
+      "sourceSystem": "ICD-10-CM-FY2027",
+      "sourceUrl": "https://www.cms.gov/files/zip/2027-code-descriptions-tabular-order.zip",
+      "demo": true
+    },
+    {
+      "code": "E00.0",
+      "nameVi": "Congenital iodine-deficiency syndrome, neurological type",
+      "nameEn": "Congenital iodine-deficiency syndrome, neurological type",
+      "chapter": "E",
+      "sourceSystem": "ICD-10-CM-FY2027",
+      "sourceUrl": "https://www.cms.gov/files/zip/2027-code-descriptions-tabular-order.zip",
+      "demo": true
+    },
+    {
+      "code": "E00.1",
+      "nameVi": "Congenital iodine-deficiency syndrome, myxedematous type",
+      "nameEn": "Congenital iodine-deficiency syndrome, myxedematous type",
+      "chapter": "E",
+      "sourceSystem": "ICD-10-CM-FY2027",
+      "sourceUrl": "https://www.cms.gov/files/zip/2027-code-descriptions-tabular-order.zip",
+      "demo": true
+    },
+    {
+      "code": "E00.2",
+      "nameVi": "Congenital iodine-deficiency syndrome, mixed type",
+      "nameEn": "Congenital iodine-deficiency syndrome, mixed type",
+      "chapter": "E",
+      "sourceSystem": "ICD-10-CM-FY2027",
+      "sourceUrl": "https://www.cms.gov/files/zip/2027-code-descriptions-tabular-order.zip",
+      "demo": true
+    },
+    {
+      "code": "E00.9",
+      "nameVi": "Congenital iodine-deficiency syndrome, unspecified",
+      "nameEn": "Congenital iodine-deficiency syndrome, unspecified",
+      "chapter": "E",
+      "sourceSystem": "ICD-10-CM-FY2027",
+      "sourceUrl": "https://www.cms.gov/files/zip/2027-code-descriptions-tabular-order.zip",
+      "demo": true
+    },
+    {
+      "code": "E01.0",
+      "nameVi": "Iodine-deficiency related diffuse (endemic) goiter",
+      "nameEn": "Iodine-deficiency related diffuse (endemic) goiter",
+      "chapter": "E",
+      "sourceSystem": "ICD-10-CM-FY2027",
+      "sourceUrl": "https://www.cms.gov/files/zip/2027-code-descriptions-tabular-order.zip",
+      "demo": true
+    },
+    {
+      "code": "E01.1",
+      "nameVi": "Iodine-deficiency related multinodular (endemic) goiter",
+      "nameEn": "Iodine-deficiency related multinodular (endemic) goiter",
+      "chapter": "E",
+      "sourceSystem": "ICD-10-CM-FY2027",
+      "sourceUrl": "https://www.cms.gov/files/zip/2027-code-descriptions-tabular-order.zip",
+      "demo": true
+    },
+    {
+      "code": "E01.2",
+      "nameVi": "Iodine-deficiency related (endemic) goiter, unspecified",
+      "nameEn": "Iodine-deficiency related (endemic) goiter, unspecified",
+      "chapter": "E",
+      "sourceSystem": "ICD-10-CM-FY2027",
+      "sourceUrl": "https://www.cms.gov/files/zip/2027-code-descriptions-tabular-order.zip",
+      "demo": true
+    },
+    {
+      "code": "E01.8",
+      "nameVi": "Other iodine-deficiency related thyroid disorders and allied conditions",
+      "nameEn": "Other iodine-deficiency related thyroid disorders and allied conditions",
+      "chapter": "E",
+      "sourceSystem": "ICD-10-CM-FY2027",
+      "sourceUrl": "https://www.cms.gov/files/zip/2027-code-descriptions-tabular-order.zip",
+      "demo": true
+    },
+    {
+      "code": "E02",
+      "nameVi": "Subclinical iodine-deficiency hypothyroidism",
+      "nameEn": "Subclinical iodine-deficiency hypothyroidism",
+      "chapter": "E",
+      "sourceSystem": "ICD-10-CM-FY2027",
+      "sourceUrl": "https://www.cms.gov/files/zip/2027-code-descriptions-tabular-order.zip",
+      "demo": true
+    },
+    {
+      "code": "E03.0",
+      "nameVi": "Congenital hypothyroidism with diffuse goiter",
+      "nameEn": "Congenital hypothyroidism with diffuse goiter",
+      "chapter": "E",
+      "sourceSystem": "ICD-10-CM-FY2027",
+      "sourceUrl": "https://www.cms.gov/files/zip/2027-code-descriptions-tabular-order.zip",
+      "demo": true
+    },
+    {
+      "code": "E03.1",
+      "nameVi": "Congenital hypothyroidism without goiter",
+      "nameEn": "Congenital hypothyroidism without goiter",
+      "chapter": "E",
+      "sourceSystem": "ICD-10-CM-FY2027",
+      "sourceUrl": "https://www.cms.gov/files/zip/2027-code-descriptions-tabular-order.zip",
+      "demo": true
+    },
+    {
+      "code": "E03.2",
+      "nameVi": "Hypothyroidism due to medicaments and other exogenous substances",
+      "nameEn": "Hypothyroidism due to medicaments and other exogenous substances",
+      "chapter": "E",
+      "sourceSystem": "ICD-10-CM-FY2027",
+      "sourceUrl": "https://www.cms.gov/files/zip/2027-code-descriptions-tabular-order.zip",
+      "demo": true
+    },
+    {
+      "code": "E03.3",
+      "nameVi": "Postinfectious hypothyroidism",
+      "nameEn": "Postinfectious hypothyroidism",
+      "chapter": "E",
+      "sourceSystem": "ICD-10-CM-FY2027",
+      "sourceUrl": "https://www.cms.gov/files/zip/2027-code-descriptions-tabular-order.zip",
+      "demo": true
+    },
+    {
+      "code": "E03.4",
+      "nameVi": "Atrophy of thyroid (acquired)",
+      "nameEn": "Atrophy of thyroid (acquired)",
+      "chapter": "E",
+      "sourceSystem": "ICD-10-CM-FY2027",
+      "sourceUrl": "https://www.cms.gov/files/zip/2027-code-descriptions-tabular-order.zip",
+      "demo": true
+    },
+    {
+      "code": "E03.5",
+      "nameVi": "Myxedema coma",
+      "nameEn": "Myxedema coma",
+      "chapter": "E",
+      "sourceSystem": "ICD-10-CM-FY2027",
+      "sourceUrl": "https://www.cms.gov/files/zip/2027-code-descriptions-tabular-order.zip",
+      "demo": true
+    },
+    {
+      "code": "E03.8",
+      "nameVi": "Other specified hypothyroidism",
+      "nameEn": "Other specified hypothyroidism",
+      "chapter": "E",
+      "sourceSystem": "ICD-10-CM-FY2027",
+      "sourceUrl": "https://www.cms.gov/files/zip/2027-code-descriptions-tabular-order.zip",
+      "demo": true
+    },
+    {
+      "code": "E03.9",
+      "nameVi": "Hypothyroidism, unspecified",
+      "nameEn": "Hypothyroidism, unspecified",
+      "chapter": "E",
+      "sourceSystem": "ICD-10-CM-FY2027",
+      "sourceUrl": "https://www.cms.gov/files/zip/2027-code-descriptions-tabular-order.zip",
+      "demo": true
+    },
+    {
+      "code": "E11.9",
+      "nameVi": "Đái tháo đường típ 2 không biến chứng",
+      "nameEn": "Type 2 diabetes mellitus without complications",
+      "chapter": "E",
+      "sourceSystem": "ICD-10-CM-FY2027",
+      "sourceUrl": "https://www.cms.gov/files/zip/2027-code-descriptions-tabular-order.zip",
+      "demo": true
+    },
+    {
+      "code": "E78.5",
+      "nameVi": "Hyperlipidemia, unspecified",
+      "nameEn": "Hyperlipidemia, unspecified",
+      "chapter": "E",
+      "sourceSystem": "ICD-10-CM-FY2027",
+      "sourceUrl": "https://www.cms.gov/files/zip/2027-code-descriptions-tabular-order.zip",
+      "demo": true
+    },
+    {
+      "code": "H01.9",
+      "nameVi": "Unspecified inflammation of eyelid",
+      "nameEn": "Unspecified inflammation of eyelid",
+      "chapter": "H",
+      "sourceSystem": "ICD-10-CM-FY2027",
+      "sourceUrl": "https://www.cms.gov/files/zip/2027-code-descriptions-tabular-order.zip",
+      "demo": true
+    },
+    {
+      "code": "H02.9",
+      "nameVi": "Unspecified disorder of eyelid",
+      "nameEn": "Unspecified disorder of eyelid",
+      "chapter": "H",
+      "sourceSystem": "ICD-10-CM-FY2027",
+      "sourceUrl": "https://www.cms.gov/files/zip/2027-code-descriptions-tabular-order.zip",
+      "demo": true
+    },
+    {
+      "code": "H04.9",
+      "nameVi": "Disorder of lacrimal system, unspecified",
+      "nameEn": "Disorder of lacrimal system, unspecified",
+      "chapter": "H",
+      "sourceSystem": "ICD-10-CM-FY2027",
+      "sourceUrl": "https://www.cms.gov/files/zip/2027-code-descriptions-tabular-order.zip",
+      "demo": true
+    },
+    {
+      "code": "H05.9",
+      "nameVi": "Unspecified disorder of orbit",
+      "nameEn": "Unspecified disorder of orbit",
+      "chapter": "H",
+      "sourceSystem": "ICD-10-CM-FY2027",
+      "sourceUrl": "https://www.cms.gov/files/zip/2027-code-descriptions-tabular-order.zip",
+      "demo": true
+    },
+    {
+      "code": "H10.9",
+      "nameVi": "Unspecified conjunctivitis",
+      "nameEn": "Unspecified conjunctivitis",
+      "chapter": "H",
+      "sourceSystem": "ICD-10-CM-FY2027",
+      "sourceUrl": "https://www.cms.gov/files/zip/2027-code-descriptions-tabular-order.zip",
+      "demo": true
+    },
+    {
+      "code": "H11.9",
+      "nameVi": "Unspecified disorder of conjunctiva",
+      "nameEn": "Unspecified disorder of conjunctiva",
+      "chapter": "H",
+      "sourceSystem": "ICD-10-CM-FY2027",
+      "sourceUrl": "https://www.cms.gov/files/zip/2027-code-descriptions-tabular-order.zip",
+      "demo": true
+    },
+    {
+      "code": "H15.9",
+      "nameVi": "Unspecified disorder of sclera",
+      "nameEn": "Unspecified disorder of sclera",
+      "chapter": "H",
+      "sourceSystem": "ICD-10-CM-FY2027",
+      "sourceUrl": "https://www.cms.gov/files/zip/2027-code-descriptions-tabular-order.zip",
+      "demo": true
+    },
+    {
+      "code": "H16.8",
+      "nameVi": "Other keratitis",
+      "nameEn": "Other keratitis",
+      "chapter": "H",
+      "sourceSystem": "ICD-10-CM-FY2027",
+      "sourceUrl": "https://www.cms.gov/files/zip/2027-code-descriptions-tabular-order.zip",
+      "demo": true
+    },
+    {
+      "code": "H16.9",
+      "nameVi": "Unspecified keratitis",
+      "nameEn": "Unspecified keratitis",
+      "chapter": "H",
+      "sourceSystem": "ICD-10-CM-FY2027",
+      "sourceUrl": "https://www.cms.gov/files/zip/2027-code-descriptions-tabular-order.zip",
+      "demo": true
+    },
+    {
+      "code": "H17.9",
+      "nameVi": "Unspecified corneal scar and opacity",
+      "nameEn": "Unspecified corneal scar and opacity",
+      "chapter": "H",
+      "sourceSystem": "ICD-10-CM-FY2027",
+      "sourceUrl": "https://www.cms.gov/files/zip/2027-code-descriptions-tabular-order.zip",
+      "demo": true
+    },
+    {
+      "code": "H18.9",
+      "nameVi": "Unspecified disorder of cornea",
+      "nameEn": "Unspecified disorder of cornea",
+      "chapter": "H",
+      "sourceSystem": "ICD-10-CM-FY2027",
+      "sourceUrl": "https://www.cms.gov/files/zip/2027-code-descriptions-tabular-order.zip",
+      "demo": true
+    },
+    {
+      "code": "H20.9",
+      "nameVi": "Unspecified iridocyclitis",
+      "nameEn": "Unspecified iridocyclitis",
+      "chapter": "H",
+      "sourceSystem": "ICD-10-CM-FY2027",
+      "sourceUrl": "https://www.cms.gov/files/zip/2027-code-descriptions-tabular-order.zip",
+      "demo": true
+    },
+    {
+      "code": "H21.9",
+      "nameVi": "Unspecified disorder of iris and ciliary body",
+      "nameEn": "Unspecified disorder of iris and ciliary body",
+      "chapter": "H",
+      "sourceSystem": "ICD-10-CM-FY2027",
+      "sourceUrl": "https://www.cms.gov/files/zip/2027-code-descriptions-tabular-order.zip",
+      "demo": true
+    },
+    {
+      "code": "H22",
+      "nameVi": "Disorders of iris and ciliary body in diseases classified elsewhere",
+      "nameEn": "Disorders of iris and ciliary body in diseases classified elsewhere",
+      "chapter": "H",
+      "sourceSystem": "ICD-10-CM-FY2027",
+      "sourceUrl": "https://www.cms.gov/files/zip/2027-code-descriptions-tabular-order.zip",
+      "demo": true
+    },
+    {
+      "code": "H25.9",
+      "nameVi": "Unspecified age-related cataract",
+      "nameEn": "Unspecified age-related cataract",
+      "chapter": "H",
+      "sourceSystem": "ICD-10-CM-FY2027",
+      "sourceUrl": "https://www.cms.gov/files/zip/2027-code-descriptions-tabular-order.zip",
+      "demo": true
+    },
+    {
+      "code": "H26.8",
+      "nameVi": "Other specified cataract",
+      "nameEn": "Other specified cataract",
+      "chapter": "H",
+      "sourceSystem": "ICD-10-CM-FY2027",
+      "sourceUrl": "https://www.cms.gov/files/zip/2027-code-descriptions-tabular-order.zip",
+      "demo": true
+    },
+    {
+      "code": "H26.9",
+      "nameVi": "Unspecified cataract",
+      "nameEn": "Unspecified cataract",
+      "chapter": "H",
+      "sourceSystem": "ICD-10-CM-FY2027",
+      "sourceUrl": "https://www.cms.gov/files/zip/2027-code-descriptions-tabular-order.zip",
+      "demo": true
+    },
+    {
+      "code": "H27.8",
+      "nameVi": "Other specified disorders of lens",
+      "nameEn": "Other specified disorders of lens",
+      "chapter": "H",
+      "sourceSystem": "ICD-10-CM-FY2027",
+      "sourceUrl": "https://www.cms.gov/files/zip/2027-code-descriptions-tabular-order.zip",
+      "demo": true
+    },
+    {
+      "code": "H66.90",
+      "nameVi": "Otitis media, unspecified, unspecified ear",
+      "nameEn": "Otitis media, unspecified, unspecified ear",
+      "chapter": "H",
+      "sourceSystem": "ICD-10-CM-FY2027",
+      "sourceUrl": "https://www.cms.gov/files/zip/2027-code-descriptions-tabular-order.zip",
+      "demo": true
+    },
+    {
+      "code": "I00",
+      "nameVi": "Rheumatic fever without heart involvement",
+      "nameEn": "Rheumatic fever without heart involvement",
+      "chapter": "I",
+      "sourceSystem": "ICD-10-CM-FY2027",
+      "sourceUrl": "https://www.cms.gov/files/zip/2027-code-descriptions-tabular-order.zip",
+      "demo": true
+    },
+    {
+      "code": "I01.0",
+      "nameVi": "Acute rheumatic pericarditis",
+      "nameEn": "Acute rheumatic pericarditis",
+      "chapter": "I",
+      "sourceSystem": "ICD-10-CM-FY2027",
+      "sourceUrl": "https://www.cms.gov/files/zip/2027-code-descriptions-tabular-order.zip",
+      "demo": true
+    },
+    {
+      "code": "I01.1",
+      "nameVi": "Acute rheumatic endocarditis",
+      "nameEn": "Acute rheumatic endocarditis",
+      "chapter": "I",
+      "sourceSystem": "ICD-10-CM-FY2027",
+      "sourceUrl": "https://www.cms.gov/files/zip/2027-code-descriptions-tabular-order.zip",
+      "demo": true
+    },
+    {
+      "code": "I01.2",
+      "nameVi": "Acute rheumatic myocarditis",
+      "nameEn": "Acute rheumatic myocarditis",
+      "chapter": "I",
+      "sourceSystem": "ICD-10-CM-FY2027",
+      "sourceUrl": "https://www.cms.gov/files/zip/2027-code-descriptions-tabular-order.zip",
+      "demo": true
+    },
+    {
+      "code": "I01.8",
+      "nameVi": "Other acute rheumatic heart disease",
+      "nameEn": "Other acute rheumatic heart disease",
+      "chapter": "I",
+      "sourceSystem": "ICD-10-CM-FY2027",
+      "sourceUrl": "https://www.cms.gov/files/zip/2027-code-descriptions-tabular-order.zip",
+      "demo": true
+    },
+    {
+      "code": "I01.9",
+      "nameVi": "Acute rheumatic heart disease, unspecified",
+      "nameEn": "Acute rheumatic heart disease, unspecified",
+      "chapter": "I",
+      "sourceSystem": "ICD-10-CM-FY2027",
+      "sourceUrl": "https://www.cms.gov/files/zip/2027-code-descriptions-tabular-order.zip",
+      "demo": true
+    },
+    {
+      "code": "I02.0",
+      "nameVi": "Rheumatic chorea with heart involvement",
+      "nameEn": "Rheumatic chorea with heart involvement",
+      "chapter": "I",
+      "sourceSystem": "ICD-10-CM-FY2027",
+      "sourceUrl": "https://www.cms.gov/files/zip/2027-code-descriptions-tabular-order.zip",
+      "demo": true
+    },
+    {
+      "code": "I02.9",
+      "nameVi": "Rheumatic chorea without heart involvement",
+      "nameEn": "Rheumatic chorea without heart involvement",
+      "chapter": "I",
+      "sourceSystem": "ICD-10-CM-FY2027",
+      "sourceUrl": "https://www.cms.gov/files/zip/2027-code-descriptions-tabular-order.zip",
+      "demo": true
+    },
+    {
+      "code": "I05.0",
+      "nameVi": "Rheumatic mitral stenosis",
+      "nameEn": "Rheumatic mitral stenosis",
+      "chapter": "I",
+      "sourceSystem": "ICD-10-CM-FY2027",
+      "sourceUrl": "https://www.cms.gov/files/zip/2027-code-descriptions-tabular-order.zip",
+      "demo": true
+    },
+    {
+      "code": "I05.1",
+      "nameVi": "Rheumatic mitral insufficiency",
+      "nameEn": "Rheumatic mitral insufficiency",
+      "chapter": "I",
+      "sourceSystem": "ICD-10-CM-FY2027",
+      "sourceUrl": "https://www.cms.gov/files/zip/2027-code-descriptions-tabular-order.zip",
+      "demo": true
+    },
+    {
+      "code": "I05.2",
+      "nameVi": "Rheumatic mitral stenosis with insufficiency",
+      "nameEn": "Rheumatic mitral stenosis with insufficiency",
+      "chapter": "I",
+      "sourceSystem": "ICD-10-CM-FY2027",
+      "sourceUrl": "https://www.cms.gov/files/zip/2027-code-descriptions-tabular-order.zip",
+      "demo": true
+    },
+    {
+      "code": "I05.8",
+      "nameVi": "Other rheumatic mitral valve diseases",
+      "nameEn": "Other rheumatic mitral valve diseases",
+      "chapter": "I",
+      "sourceSystem": "ICD-10-CM-FY2027",
+      "sourceUrl": "https://www.cms.gov/files/zip/2027-code-descriptions-tabular-order.zip",
+      "demo": true
+    },
+    {
+      "code": "I05.9",
+      "nameVi": "Rheumatic mitral valve disease, unspecified",
+      "nameEn": "Rheumatic mitral valve disease, unspecified",
+      "chapter": "I",
+      "sourceSystem": "ICD-10-CM-FY2027",
+      "sourceUrl": "https://www.cms.gov/files/zip/2027-code-descriptions-tabular-order.zip",
+      "demo": true
+    },
+    {
+      "code": "I06.0",
+      "nameVi": "Rheumatic aortic stenosis",
+      "nameEn": "Rheumatic aortic stenosis",
+      "chapter": "I",
+      "sourceSystem": "ICD-10-CM-FY2027",
+      "sourceUrl": "https://www.cms.gov/files/zip/2027-code-descriptions-tabular-order.zip",
+      "demo": true
+    },
+    {
+      "code": "I06.1",
+      "nameVi": "Rheumatic aortic insufficiency",
+      "nameEn": "Rheumatic aortic insufficiency",
+      "chapter": "I",
+      "sourceSystem": "ICD-10-CM-FY2027",
+      "sourceUrl": "https://www.cms.gov/files/zip/2027-code-descriptions-tabular-order.zip",
+      "demo": true
+    },
+    {
+      "code": "I06.2",
+      "nameVi": "Rheumatic aortic stenosis with insufficiency",
+      "nameEn": "Rheumatic aortic stenosis with insufficiency",
+      "chapter": "I",
+      "sourceSystem": "ICD-10-CM-FY2027",
+      "sourceUrl": "https://www.cms.gov/files/zip/2027-code-descriptions-tabular-order.zip",
+      "demo": true
+    },
+    {
+      "code": "I06.8",
+      "nameVi": "Other rheumatic aortic valve diseases",
+      "nameEn": "Other rheumatic aortic valve diseases",
+      "chapter": "I",
+      "sourceSystem": "ICD-10-CM-FY2027",
+      "sourceUrl": "https://www.cms.gov/files/zip/2027-code-descriptions-tabular-order.zip",
+      "demo": true
+    },
+    {
+      "code": "I10",
+      "nameVi": "Tăng huyết áp nguyên phát",
+      "nameEn": "Essential (primary) hypertension",
+      "chapter": "I",
+      "sourceSystem": "ICD-10-CM-FY2027",
+      "sourceUrl": "https://www.cms.gov/files/zip/2027-code-descriptions-tabular-order.zip",
+      "demo": true
+    },
+    {
+      "code": "J00",
+      "nameVi": "Viêm mũi họng cấp",
+      "nameEn": "Acute nasopharyngitis [common cold]",
+      "chapter": "J",
+      "sourceSystem": "ICD-10-CM-FY2027",
+      "sourceUrl": "https://www.cms.gov/files/zip/2027-code-descriptions-tabular-order.zip",
+      "demo": true
+    },
+    {
+      "code": "J02.0",
+      "nameVi": "Streptococcal pharyngitis",
+      "nameEn": "Streptococcal pharyngitis",
+      "chapter": "J",
+      "sourceSystem": "ICD-10-CM-FY2027",
+      "sourceUrl": "https://www.cms.gov/files/zip/2027-code-descriptions-tabular-order.zip",
+      "demo": true
+    },
+    {
+      "code": "J02.8",
+      "nameVi": "Acute pharyngitis due to other specified organisms",
+      "nameEn": "Acute pharyngitis due to other specified organisms",
+      "chapter": "J",
+      "sourceSystem": "ICD-10-CM-FY2027",
+      "sourceUrl": "https://www.cms.gov/files/zip/2027-code-descriptions-tabular-order.zip",
+      "demo": true
+    },
+    {
+      "code": "J02.9",
+      "nameVi": "Viêm họng cấp, không xác định",
+      "nameEn": "Acute pharyngitis, unspecified",
+      "chapter": "J",
+      "sourceSystem": "ICD-10-CM-FY2027",
+      "sourceUrl": "https://www.cms.gov/files/zip/2027-code-descriptions-tabular-order.zip",
+      "demo": true
+    },
+    {
+      "code": "J03.90",
+      "nameVi": "Acute tonsillitis, unspecified",
+      "nameEn": "Acute tonsillitis, unspecified",
+      "chapter": "J",
+      "sourceSystem": "ICD-10-CM-FY2027",
+      "sourceUrl": "https://www.cms.gov/files/zip/2027-code-descriptions-tabular-order.zip",
+      "demo": true
+    },
+    {
+      "code": "J04.0",
+      "nameVi": "Acute laryngitis",
+      "nameEn": "Acute laryngitis",
+      "chapter": "J",
+      "sourceSystem": "ICD-10-CM-FY2027",
+      "sourceUrl": "https://www.cms.gov/files/zip/2027-code-descriptions-tabular-order.zip",
+      "demo": true
+    },
+    {
+      "code": "J04.2",
+      "nameVi": "Acute laryngotracheitis",
+      "nameEn": "Acute laryngotracheitis",
+      "chapter": "J",
+      "sourceSystem": "ICD-10-CM-FY2027",
+      "sourceUrl": "https://www.cms.gov/files/zip/2027-code-descriptions-tabular-order.zip",
+      "demo": true
+    },
+    {
+      "code": "J05.0",
+      "nameVi": "Acute obstructive laryngitis [croup]",
+      "nameEn": "Acute obstructive laryngitis [croup]",
+      "chapter": "J",
+      "sourceSystem": "ICD-10-CM-FY2027",
+      "sourceUrl": "https://www.cms.gov/files/zip/2027-code-descriptions-tabular-order.zip",
+      "demo": true
+    },
+    {
+      "code": "J06.0",
+      "nameVi": "Acute laryngopharyngitis",
+      "nameEn": "Acute laryngopharyngitis",
+      "chapter": "J",
+      "sourceSystem": "ICD-10-CM-FY2027",
+      "sourceUrl": "https://www.cms.gov/files/zip/2027-code-descriptions-tabular-order.zip",
+      "demo": true
+    },
+    {
+      "code": "J06.9",
+      "nameVi": "Viêm đường hô hấp trên cấp, không xác định",
+      "nameEn": "Acute upper respiratory infection, unspecified",
+      "chapter": "J",
+      "sourceSystem": "ICD-10-CM-FY2027",
+      "sourceUrl": "https://www.cms.gov/files/zip/2027-code-descriptions-tabular-order.zip",
+      "demo": true
+    },
+    {
+      "code": "J10.1",
+      "nameVi": "Influenza due to other identified influenza virus with other respiratory manifestations",
+      "nameEn": "Influenza due to other identified influenza virus with other respiratory manifestations",
+      "chapter": "J",
+      "sourceSystem": "ICD-10-CM-FY2027",
+      "sourceUrl": "https://www.cms.gov/files/zip/2027-code-descriptions-tabular-order.zip",
+      "demo": true
+    },
+    {
+      "code": "J10.2",
+      "nameVi": "Influenza due to other identified influenza virus with gastrointestinal manifestations",
+      "nameEn": "Influenza due to other identified influenza virus with gastrointestinal manifestations",
+      "chapter": "J",
+      "sourceSystem": "ICD-10-CM-FY2027",
+      "sourceUrl": "https://www.cms.gov/files/zip/2027-code-descriptions-tabular-order.zip",
+      "demo": true
+    },
+    {
+      "code": "J11.1",
+      "nameVi": "Influenza due to unidentified influenza virus with other respiratory manifestations",
+      "nameEn": "Influenza due to unidentified influenza virus with other respiratory manifestations",
+      "chapter": "J",
+      "sourceSystem": "ICD-10-CM-FY2027",
+      "sourceUrl": "https://www.cms.gov/files/zip/2027-code-descriptions-tabular-order.zip",
+      "demo": true
+    },
+    {
+      "code": "J11.2",
+      "nameVi": "Influenza due to unidentified influenza virus with gastrointestinal manifestations",
+      "nameEn": "Influenza due to unidentified influenza virus with gastrointestinal manifestations",
+      "chapter": "J",
+      "sourceSystem": "ICD-10-CM-FY2027",
+      "sourceUrl": "https://www.cms.gov/files/zip/2027-code-descriptions-tabular-order.zip",
+      "demo": true
+    },
+    {
+      "code": "J12.0",
+      "nameVi": "Adenoviral pneumonia",
+      "nameEn": "Adenoviral pneumonia",
+      "chapter": "J",
+      "sourceSystem": "ICD-10-CM-FY2027",
+      "sourceUrl": "https://www.cms.gov/files/zip/2027-code-descriptions-tabular-order.zip",
+      "demo": true
+    },
+    {
+      "code": "J12.1",
+      "nameVi": "Respiratory syncytial virus pneumonia",
+      "nameEn": "Respiratory syncytial virus pneumonia",
+      "chapter": "J",
+      "sourceSystem": "ICD-10-CM-FY2027",
+      "sourceUrl": "https://www.cms.gov/files/zip/2027-code-descriptions-tabular-order.zip",
+      "demo": true
+    },
+    {
+      "code": "J12.2",
+      "nameVi": "Parainfluenza virus pneumonia",
+      "nameEn": "Parainfluenza virus pneumonia",
+      "chapter": "J",
+      "sourceSystem": "ICD-10-CM-FY2027",
+      "sourceUrl": "https://www.cms.gov/files/zip/2027-code-descriptions-tabular-order.zip",
+      "demo": true
+    },
+    {
+      "code": "J12.3",
+      "nameVi": "Human metapneumovirus pneumonia",
+      "nameEn": "Human metapneumovirus pneumonia",
+      "chapter": "J",
+      "sourceSystem": "ICD-10-CM-FY2027",
+      "sourceUrl": "https://www.cms.gov/files/zip/2027-code-descriptions-tabular-order.zip",
+      "demo": true
+    },
+    {
+      "code": "J12.9",
+      "nameVi": "Viral pneumonia, unspecified",
+      "nameEn": "Viral pneumonia, unspecified",
+      "chapter": "J",
+      "sourceSystem": "ICD-10-CM-FY2027",
+      "sourceUrl": "https://www.cms.gov/files/zip/2027-code-descriptions-tabular-order.zip",
+      "demo": true
+    },
+    {
+      "code": "J13",
+      "nameVi": "Pneumonia due to Streptococcus pneumoniae",
+      "nameEn": "Pneumonia due to Streptococcus pneumoniae",
+      "chapter": "J",
+      "sourceSystem": "ICD-10-CM-FY2027",
+      "sourceUrl": "https://www.cms.gov/files/zip/2027-code-descriptions-tabular-order.zip",
+      "demo": true
+    },
+    {
+      "code": "J14",
+      "nameVi": "Pneumonia due to Hemophilus influenzae",
+      "nameEn": "Pneumonia due to Hemophilus influenzae",
+      "chapter": "J",
+      "sourceSystem": "ICD-10-CM-FY2027",
+      "sourceUrl": "https://www.cms.gov/files/zip/2027-code-descriptions-tabular-order.zip",
+      "demo": true
+    },
+    {
+      "code": "J20.9",
+      "nameVi": "Acute bronchitis, unspecified",
+      "nameEn": "Acute bronchitis, unspecified",
+      "chapter": "J",
+      "sourceSystem": "ICD-10-CM-FY2027",
+      "sourceUrl": "https://www.cms.gov/files/zip/2027-code-descriptions-tabular-order.zip",
+      "demo": true
+    },
+    {
+      "code": "J30.9",
+      "nameVi": "Allergic rhinitis, unspecified",
+      "nameEn": "Allergic rhinitis, unspecified",
+      "chapter": "J",
+      "sourceSystem": "ICD-10-CM-FY2027",
+      "sourceUrl": "https://www.cms.gov/files/zip/2027-code-descriptions-tabular-order.zip",
+      "demo": true
+    },
+    {
+      "code": "J45.909",
+      "nameVi": "Unspecified asthma, uncomplicated",
+      "nameEn": "Unspecified asthma, uncomplicated",
+      "chapter": "J",
+      "sourceSystem": "ICD-10-CM-FY2027",
+      "sourceUrl": "https://www.cms.gov/files/zip/2027-code-descriptions-tabular-order.zip",
+      "demo": true
+    },
+    {
+      "code": "K00.0",
+      "nameVi": "Anodontia",
+      "nameEn": "Anodontia",
+      "chapter": "K",
+      "sourceSystem": "ICD-10-CM-FY2027",
+      "sourceUrl": "https://www.cms.gov/files/zip/2027-code-descriptions-tabular-order.zip",
+      "demo": true
+    },
+    {
+      "code": "K00.1",
+      "nameVi": "Supernumerary teeth",
+      "nameEn": "Supernumerary teeth",
+      "chapter": "K",
+      "sourceSystem": "ICD-10-CM-FY2027",
+      "sourceUrl": "https://www.cms.gov/files/zip/2027-code-descriptions-tabular-order.zip",
+      "demo": true
+    },
+    {
+      "code": "K00.2",
+      "nameVi": "Abnormalities of size and form of teeth",
+      "nameEn": "Abnormalities of size and form of teeth",
+      "chapter": "K",
+      "sourceSystem": "ICD-10-CM-FY2027",
+      "sourceUrl": "https://www.cms.gov/files/zip/2027-code-descriptions-tabular-order.zip",
+      "demo": true
+    },
+    {
+      "code": "K00.3",
+      "nameVi": "Mottled teeth",
+      "nameEn": "Mottled teeth",
+      "chapter": "K",
+      "sourceSystem": "ICD-10-CM-FY2027",
+      "sourceUrl": "https://www.cms.gov/files/zip/2027-code-descriptions-tabular-order.zip",
+      "demo": true
+    },
+    {
+      "code": "K00.4",
+      "nameVi": "Disturbances in tooth formation",
+      "nameEn": "Disturbances in tooth formation",
+      "chapter": "K",
+      "sourceSystem": "ICD-10-CM-FY2027",
+      "sourceUrl": "https://www.cms.gov/files/zip/2027-code-descriptions-tabular-order.zip",
+      "demo": true
+    },
+    {
+      "code": "K00.5",
+      "nameVi": "Hereditary disturbances in tooth structure, not elsewhere classified",
+      "nameEn": "Hereditary disturbances in tooth structure, not elsewhere classified",
+      "chapter": "K",
+      "sourceSystem": "ICD-10-CM-FY2027",
+      "sourceUrl": "https://www.cms.gov/files/zip/2027-code-descriptions-tabular-order.zip",
+      "demo": true
+    },
+    {
+      "code": "K00.6",
+      "nameVi": "Disturbances in tooth eruption",
+      "nameEn": "Disturbances in tooth eruption",
+      "chapter": "K",
+      "sourceSystem": "ICD-10-CM-FY2027",
+      "sourceUrl": "https://www.cms.gov/files/zip/2027-code-descriptions-tabular-order.zip",
+      "demo": true
+    },
+    {
+      "code": "K00.7",
+      "nameVi": "Teething syndrome",
+      "nameEn": "Teething syndrome",
+      "chapter": "K",
+      "sourceSystem": "ICD-10-CM-FY2027",
+      "sourceUrl": "https://www.cms.gov/files/zip/2027-code-descriptions-tabular-order.zip",
+      "demo": true
+    },
+    {
+      "code": "K00.8",
+      "nameVi": "Other disorders of tooth development",
+      "nameEn": "Other disorders of tooth development",
+      "chapter": "K",
+      "sourceSystem": "ICD-10-CM-FY2027",
+      "sourceUrl": "https://www.cms.gov/files/zip/2027-code-descriptions-tabular-order.zip",
+      "demo": true
+    },
+    {
+      "code": "K00.9",
+      "nameVi": "Disorder of tooth development, unspecified",
+      "nameEn": "Disorder of tooth development, unspecified",
+      "chapter": "K",
+      "sourceSystem": "ICD-10-CM-FY2027",
+      "sourceUrl": "https://www.cms.gov/files/zip/2027-code-descriptions-tabular-order.zip",
+      "demo": true
+    },
+    {
+      "code": "K01.0",
+      "nameVi": "Embedded teeth",
+      "nameEn": "Embedded teeth",
+      "chapter": "K",
+      "sourceSystem": "ICD-10-CM-FY2027",
+      "sourceUrl": "https://www.cms.gov/files/zip/2027-code-descriptions-tabular-order.zip",
+      "demo": true
+    },
+    {
+      "code": "K01.1",
+      "nameVi": "Impacted teeth",
+      "nameEn": "Impacted teeth",
+      "chapter": "K",
+      "sourceSystem": "ICD-10-CM-FY2027",
+      "sourceUrl": "https://www.cms.gov/files/zip/2027-code-descriptions-tabular-order.zip",
+      "demo": true
+    },
+    {
+      "code": "K02.3",
+      "nameVi": "Arrested dental caries",
+      "nameEn": "Arrested dental caries",
+      "chapter": "K",
+      "sourceSystem": "ICD-10-CM-FY2027",
+      "sourceUrl": "https://www.cms.gov/files/zip/2027-code-descriptions-tabular-order.zip",
+      "demo": true
+    },
+    {
+      "code": "K02.7",
+      "nameVi": "Dental root caries",
+      "nameEn": "Dental root caries",
+      "chapter": "K",
+      "sourceSystem": "ICD-10-CM-FY2027",
+      "sourceUrl": "https://www.cms.gov/files/zip/2027-code-descriptions-tabular-order.zip",
+      "demo": true
+    },
+    {
+      "code": "K02.9",
+      "nameVi": "Dental caries, unspecified",
+      "nameEn": "Dental caries, unspecified",
+      "chapter": "K",
+      "sourceSystem": "ICD-10-CM-FY2027",
+      "sourceUrl": "https://www.cms.gov/files/zip/2027-code-descriptions-tabular-order.zip",
+      "demo": true
+    },
+    {
+      "code": "K03.0",
+      "nameVi": "Excessive attrition of teeth",
+      "nameEn": "Excessive attrition of teeth",
+      "chapter": "K",
+      "sourceSystem": "ICD-10-CM-FY2027",
+      "sourceUrl": "https://www.cms.gov/files/zip/2027-code-descriptions-tabular-order.zip",
+      "demo": true
+    },
+    {
+      "code": "K03.1",
+      "nameVi": "Abrasion of teeth",
+      "nameEn": "Abrasion of teeth",
+      "chapter": "K",
+      "sourceSystem": "ICD-10-CM-FY2027",
+      "sourceUrl": "https://www.cms.gov/files/zip/2027-code-descriptions-tabular-order.zip",
+      "demo": true
+    },
+    {
+      "code": "K21.9",
+      "nameVi": "Gastro-esophageal reflux disease without esophagitis",
+      "nameEn": "Gastro-esophageal reflux disease without esophagitis",
+      "chapter": "K",
+      "sourceSystem": "ICD-10-CM-FY2027",
+      "sourceUrl": "https://www.cms.gov/files/zip/2027-code-descriptions-tabular-order.zip",
+      "demo": true
+    },
+    {
+      "code": "K29.70",
+      "nameVi": "Gastritis, unspecified, without bleeding",
+      "nameEn": "Gastritis, unspecified, without bleeding",
+      "chapter": "K",
+      "sourceSystem": "ICD-10-CM-FY2027",
+      "sourceUrl": "https://www.cms.gov/files/zip/2027-code-descriptions-tabular-order.zip",
+      "demo": true
+    },
+    {
+      "code": "K30",
+      "nameVi": "Functional dyspepsia",
+      "nameEn": "Functional dyspepsia",
+      "chapter": "K",
+      "sourceSystem": "ICD-10-CM-FY2027",
+      "sourceUrl": "https://www.cms.gov/files/zip/2027-code-descriptions-tabular-order.zip",
+      "demo": true
+    },
+    {
+      "code": "K59.00",
+      "nameVi": "Constipation, unspecified",
+      "nameEn": "Constipation, unspecified",
+      "chapter": "K",
+      "sourceSystem": "ICD-10-CM-FY2027",
+      "sourceUrl": "https://www.cms.gov/files/zip/2027-code-descriptions-tabular-order.zip",
+      "demo": true
+    },
+    {
+      "code": "L00",
+      "nameVi": "Staphylococcal scalded skin syndrome",
+      "nameEn": "Staphylococcal scalded skin syndrome",
+      "chapter": "L",
+      "sourceSystem": "ICD-10-CM-FY2027",
+      "sourceUrl": "https://www.cms.gov/files/zip/2027-code-descriptions-tabular-order.zip",
+      "demo": true
+    },
+    {
+      "code": "L01.1",
+      "nameVi": "Impetiginization of other dermatoses",
+      "nameEn": "Impetiginization of other dermatoses",
+      "chapter": "L",
+      "sourceSystem": "ICD-10-CM-FY2027",
+      "sourceUrl": "https://www.cms.gov/files/zip/2027-code-descriptions-tabular-order.zip",
+      "demo": true
+    },
+    {
+      "code": "L04.0",
+      "nameVi": "Acute lymphadenitis of face, head and neck",
+      "nameEn": "Acute lymphadenitis of face, head and neck",
+      "chapter": "L",
+      "sourceSystem": "ICD-10-CM-FY2027",
+      "sourceUrl": "https://www.cms.gov/files/zip/2027-code-descriptions-tabular-order.zip",
+      "demo": true
+    },
+    {
+      "code": "L04.1",
+      "nameVi": "Acute lymphadenitis of trunk",
+      "nameEn": "Acute lymphadenitis of trunk",
+      "chapter": "L",
+      "sourceSystem": "ICD-10-CM-FY2027",
+      "sourceUrl": "https://www.cms.gov/files/zip/2027-code-descriptions-tabular-order.zip",
+      "demo": true
+    },
+    {
+      "code": "L04.2",
+      "nameVi": "Acute lymphadenitis of upper limb",
+      "nameEn": "Acute lymphadenitis of upper limb",
+      "chapter": "L",
+      "sourceSystem": "ICD-10-CM-FY2027",
+      "sourceUrl": "https://www.cms.gov/files/zip/2027-code-descriptions-tabular-order.zip",
+      "demo": true
+    },
+    {
+      "code": "L04.3",
+      "nameVi": "Acute lymphadenitis of lower limb",
+      "nameEn": "Acute lymphadenitis of lower limb",
+      "chapter": "L",
+      "sourceSystem": "ICD-10-CM-FY2027",
+      "sourceUrl": "https://www.cms.gov/files/zip/2027-code-descriptions-tabular-order.zip",
+      "demo": true
+    },
+    {
+      "code": "L04.8",
+      "nameVi": "Acute lymphadenitis of other sites",
+      "nameEn": "Acute lymphadenitis of other sites",
+      "chapter": "L",
+      "sourceSystem": "ICD-10-CM-FY2027",
+      "sourceUrl": "https://www.cms.gov/files/zip/2027-code-descriptions-tabular-order.zip",
+      "demo": true
+    },
+    {
+      "code": "L04.9",
+      "nameVi": "Acute lymphadenitis, unspecified",
+      "nameEn": "Acute lymphadenitis, unspecified",
+      "chapter": "L",
+      "sourceSystem": "ICD-10-CM-FY2027",
+      "sourceUrl": "https://www.cms.gov/files/zip/2027-code-descriptions-tabular-order.zip",
+      "demo": true
+    },
+    {
+      "code": "L08.0",
+      "nameVi": "Pyoderma",
+      "nameEn": "Pyoderma",
+      "chapter": "L",
+      "sourceSystem": "ICD-10-CM-FY2027",
+      "sourceUrl": "https://www.cms.gov/files/zip/2027-code-descriptions-tabular-order.zip",
+      "demo": true
+    },
+    {
+      "code": "L08.1",
+      "nameVi": "Erythrasma",
+      "nameEn": "Erythrasma",
+      "chapter": "L",
+      "sourceSystem": "ICD-10-CM-FY2027",
+      "sourceUrl": "https://www.cms.gov/files/zip/2027-code-descriptions-tabular-order.zip",
+      "demo": true
+    },
+    {
+      "code": "L08.9",
+      "nameVi": "Local infection of the skin and subcutaneous tissue, unspecified",
+      "nameEn": "Local infection of the skin and subcutaneous tissue, unspecified",
+      "chapter": "L",
+      "sourceSystem": "ICD-10-CM-FY2027",
+      "sourceUrl": "https://www.cms.gov/files/zip/2027-code-descriptions-tabular-order.zip",
+      "demo": true
+    },
+    {
+      "code": "L10.0",
+      "nameVi": "Pemphigus vulgaris",
+      "nameEn": "Pemphigus vulgaris",
+      "chapter": "L",
+      "sourceSystem": "ICD-10-CM-FY2027",
+      "sourceUrl": "https://www.cms.gov/files/zip/2027-code-descriptions-tabular-order.zip",
+      "demo": true
+    },
+    {
+      "code": "L10.1",
+      "nameVi": "Pemphigus vegetans",
+      "nameEn": "Pemphigus vegetans",
+      "chapter": "L",
+      "sourceSystem": "ICD-10-CM-FY2027",
+      "sourceUrl": "https://www.cms.gov/files/zip/2027-code-descriptions-tabular-order.zip",
+      "demo": true
+    },
+    {
+      "code": "L10.2",
+      "nameVi": "Pemphigus foliaceous",
+      "nameEn": "Pemphigus foliaceous",
+      "chapter": "L",
+      "sourceSystem": "ICD-10-CM-FY2027",
+      "sourceUrl": "https://www.cms.gov/files/zip/2027-code-descriptions-tabular-order.zip",
+      "demo": true
+    },
+    {
+      "code": "L10.3",
+      "nameVi": "Brazilian pemphigus [fogo selvagem]",
+      "nameEn": "Brazilian pemphigus [fogo selvagem]",
+      "chapter": "L",
+      "sourceSystem": "ICD-10-CM-FY2027",
+      "sourceUrl": "https://www.cms.gov/files/zip/2027-code-descriptions-tabular-order.zip",
+      "demo": true
+    },
+    {
+      "code": "L10.4",
+      "nameVi": "Pemphigus erythematosus",
+      "nameEn": "Pemphigus erythematosus",
+      "chapter": "L",
+      "sourceSystem": "ICD-10-CM-FY2027",
+      "sourceUrl": "https://www.cms.gov/files/zip/2027-code-descriptions-tabular-order.zip",
+      "demo": true
+    },
+    {
+      "code": "L10.5",
+      "nameVi": "Drug-induced pemphigus",
+      "nameEn": "Drug-induced pemphigus",
+      "chapter": "L",
+      "sourceSystem": "ICD-10-CM-FY2027",
+      "sourceUrl": "https://www.cms.gov/files/zip/2027-code-descriptions-tabular-order.zip",
+      "demo": true
+    },
+    {
+      "code": "L20.9",
+      "nameVi": "Atopic dermatitis, unspecified",
+      "nameEn": "Atopic dermatitis, unspecified",
+      "chapter": "L",
+      "sourceSystem": "ICD-10-CM-FY2027",
+      "sourceUrl": "https://www.cms.gov/files/zip/2027-code-descriptions-tabular-order.zip",
+      "demo": true
+    },
+    {
+      "code": "L50.9",
+      "nameVi": "Urticaria, unspecified",
+      "nameEn": "Urticaria, unspecified",
+      "chapter": "L",
+      "sourceSystem": "ICD-10-CM-FY2027",
+      "sourceUrl": "https://www.cms.gov/files/zip/2027-code-descriptions-tabular-order.zip",
+      "demo": true
+    },
+    {
+      "code": "M00.9",
+      "nameVi": "Pyogenic arthritis, unspecified",
+      "nameEn": "Pyogenic arthritis, unspecified",
+      "chapter": "M",
+      "sourceSystem": "ICD-10-CM-FY2027",
+      "sourceUrl": "https://www.cms.gov/files/zip/2027-code-descriptions-tabular-order.zip",
+      "demo": true
+    },
+    {
+      "code": "M02.9",
+      "nameVi": "Reactive arthropathy, unspecified",
+      "nameEn": "Reactive arthropathy, unspecified",
+      "chapter": "M",
+      "sourceSystem": "ICD-10-CM-FY2027",
+      "sourceUrl": "https://www.cms.gov/files/zip/2027-code-descriptions-tabular-order.zip",
+      "demo": true
+    },
+    {
+      "code": "M04.1",
+      "nameVi": "Periodic fever syndromes",
+      "nameEn": "Periodic fever syndromes",
+      "chapter": "M",
+      "sourceSystem": "ICD-10-CM-FY2027",
+      "sourceUrl": "https://www.cms.gov/files/zip/2027-code-descriptions-tabular-order.zip",
+      "demo": true
+    },
+    {
+      "code": "M04.2",
+      "nameVi": "Cryopyrin-associated periodic syndromes",
+      "nameEn": "Cryopyrin-associated periodic syndromes",
+      "chapter": "M",
+      "sourceSystem": "ICD-10-CM-FY2027",
+      "sourceUrl": "https://www.cms.gov/files/zip/2027-code-descriptions-tabular-order.zip",
+      "demo": true
+    },
+    {
+      "code": "M04.3",
+      "nameVi": "VEXAS syndrome",
+      "nameEn": "VEXAS syndrome",
+      "chapter": "M",
+      "sourceSystem": "ICD-10-CM-FY2027",
+      "sourceUrl": "https://www.cms.gov/files/zip/2027-code-descriptions-tabular-order.zip",
+      "demo": true
+    },
+    {
+      "code": "M04.8",
+      "nameVi": "Other autoinflammatory syndromes",
+      "nameEn": "Other autoinflammatory syndromes",
+      "chapter": "M",
+      "sourceSystem": "ICD-10-CM-FY2027",
+      "sourceUrl": "https://www.cms.gov/files/zip/2027-code-descriptions-tabular-order.zip",
+      "demo": true
+    },
+    {
+      "code": "M04.9",
+      "nameVi": "Autoinflammatory syndrome, unspecified",
+      "nameEn": "Autoinflammatory syndrome, unspecified",
+      "chapter": "M",
+      "sourceSystem": "ICD-10-CM-FY2027",
+      "sourceUrl": "https://www.cms.gov/files/zip/2027-code-descriptions-tabular-order.zip",
+      "demo": true
+    },
+    {
+      "code": "M05.9",
+      "nameVi": "Rheumatoid arthritis with rheumatoid factor, unspecified",
+      "nameEn": "Rheumatoid arthritis with rheumatoid factor, unspecified",
+      "chapter": "M",
+      "sourceSystem": "ICD-10-CM-FY2027",
+      "sourceUrl": "https://www.cms.gov/files/zip/2027-code-descriptions-tabular-order.zip",
+      "demo": true
+    },
+    {
+      "code": "M05.A",
+      "nameVi": "Abnormal rheumatoid factor and anti-citrullinated protein antibody with rheumatoid arthritis",
+      "nameEn": "Abnormal rheumatoid factor and anti-citrullinated protein antibody with rheumatoid arthritis",
+      "chapter": "M",
+      "sourceSystem": "ICD-10-CM-FY2027",
+      "sourceUrl": "https://www.cms.gov/files/zip/2027-code-descriptions-tabular-order.zip",
+      "demo": true
+    },
+    {
+      "code": "M06.1",
+      "nameVi": "Adult-onset Still's disease",
+      "nameEn": "Adult-onset Still's disease",
+      "chapter": "M",
+      "sourceSystem": "ICD-10-CM-FY2027",
+      "sourceUrl": "https://www.cms.gov/files/zip/2027-code-descriptions-tabular-order.zip",
+      "demo": true
+    },
+    {
+      "code": "M06.4",
+      "nameVi": "Inflammatory polyarthropathy",
+      "nameEn": "Inflammatory polyarthropathy",
+      "chapter": "M",
+      "sourceSystem": "ICD-10-CM-FY2027",
+      "sourceUrl": "https://www.cms.gov/files/zip/2027-code-descriptions-tabular-order.zip",
+      "demo": true
+    },
+    {
+      "code": "M06.9",
+      "nameVi": "Rheumatoid arthritis, unspecified",
+      "nameEn": "Rheumatoid arthritis, unspecified",
+      "chapter": "M",
+      "sourceSystem": "ICD-10-CM-FY2027",
+      "sourceUrl": "https://www.cms.gov/files/zip/2027-code-descriptions-tabular-order.zip",
+      "demo": true
+    },
+    {
+      "code": "M08.1",
+      "nameVi": "Juvenile ankylosing spondylitis",
+      "nameEn": "Juvenile ankylosing spondylitis",
+      "chapter": "M",
+      "sourceSystem": "ICD-10-CM-FY2027",
+      "sourceUrl": "https://www.cms.gov/files/zip/2027-code-descriptions-tabular-order.zip",
+      "demo": true
+    },
+    {
+      "code": "M08.3",
+      "nameVi": "Juvenile rheumatoid polyarthritis (seronegative)",
+      "nameEn": "Juvenile rheumatoid polyarthritis (seronegative)",
+      "chapter": "M",
+      "sourceSystem": "ICD-10-CM-FY2027",
+      "sourceUrl": "https://www.cms.gov/files/zip/2027-code-descriptions-tabular-order.zip",
+      "demo": true
+    },
+    {
+      "code": "M10.9",
+      "nameVi": "Gout, unspecified",
+      "nameEn": "Gout, unspecified",
+      "chapter": "M",
+      "sourceSystem": "ICD-10-CM-FY2027",
+      "sourceUrl": "https://www.cms.gov/files/zip/2027-code-descriptions-tabular-order.zip",
+      "demo": true
+    },
+    {
+      "code": "M11.9",
+      "nameVi": "Crystal arthropathy, unspecified",
+      "nameEn": "Crystal arthropathy, unspecified",
+      "chapter": "M",
+      "sourceSystem": "ICD-10-CM-FY2027",
+      "sourceUrl": "https://www.cms.gov/files/zip/2027-code-descriptions-tabular-order.zip",
+      "demo": true
+    },
+    {
+      "code": "M12.9",
+      "nameVi": "Arthropathy, unspecified",
+      "nameEn": "Arthropathy, unspecified",
+      "chapter": "M",
+      "sourceSystem": "ICD-10-CM-FY2027",
+      "sourceUrl": "https://www.cms.gov/files/zip/2027-code-descriptions-tabular-order.zip",
+      "demo": true
+    },
+    {
+      "code": "M54.50",
+      "nameVi": "Low back pain, unspecified",
+      "nameEn": "Low back pain, unspecified",
+      "chapter": "M",
+      "sourceSystem": "ICD-10-CM-FY2027",
+      "sourceUrl": "https://www.cms.gov/files/zip/2027-code-descriptions-tabular-order.zip",
+      "demo": true
+    },
+    {
+      "code": "N00.0",
+      "nameVi": "Acute nephritic syndrome with minor glomerular abnormality",
+      "nameEn": "Acute nephritic syndrome with minor glomerular abnormality",
+      "chapter": "N",
+      "sourceSystem": "ICD-10-CM-FY2027",
+      "sourceUrl": "https://www.cms.gov/files/zip/2027-code-descriptions-tabular-order.zip",
+      "demo": true
+    },
+    {
+      "code": "N00.1",
+      "nameVi": "Acute nephritic syndrome with focal and segmental glomerular lesions",
+      "nameEn": "Acute nephritic syndrome with focal and segmental glomerular lesions",
+      "chapter": "N",
+      "sourceSystem": "ICD-10-CM-FY2027",
+      "sourceUrl": "https://www.cms.gov/files/zip/2027-code-descriptions-tabular-order.zip",
+      "demo": true
+    },
+    {
+      "code": "N00.2",
+      "nameVi": "Acute nephritic syndrome with diffuse membranous glomerulonephritis",
+      "nameEn": "Acute nephritic syndrome with diffuse membranous glomerulonephritis",
+      "chapter": "N",
+      "sourceSystem": "ICD-10-CM-FY2027",
+      "sourceUrl": "https://www.cms.gov/files/zip/2027-code-descriptions-tabular-order.zip",
+      "demo": true
+    },
+    {
+      "code": "N00.3",
+      "nameVi": "Acute nephritic syndrome with diffuse mesangial proliferative glomerulonephritis",
+      "nameEn": "Acute nephritic syndrome with diffuse mesangial proliferative glomerulonephritis",
+      "chapter": "N",
+      "sourceSystem": "ICD-10-CM-FY2027",
+      "sourceUrl": "https://www.cms.gov/files/zip/2027-code-descriptions-tabular-order.zip",
+      "demo": true
+    },
+    {
+      "code": "N00.4",
+      "nameVi": "Acute nephritic syndrome with diffuse endocapillary proliferative glomerulonephritis",
+      "nameEn": "Acute nephritic syndrome with diffuse endocapillary proliferative glomerulonephritis",
+      "chapter": "N",
+      "sourceSystem": "ICD-10-CM-FY2027",
+      "sourceUrl": "https://www.cms.gov/files/zip/2027-code-descriptions-tabular-order.zip",
+      "demo": true
+    },
+    {
+      "code": "N00.5",
+      "nameVi": "Acute nephritic syndrome with diffuse mesangiocapillary glomerulonephritis",
+      "nameEn": "Acute nephritic syndrome with diffuse mesangiocapillary glomerulonephritis",
+      "chapter": "N",
+      "sourceSystem": "ICD-10-CM-FY2027",
+      "sourceUrl": "https://www.cms.gov/files/zip/2027-code-descriptions-tabular-order.zip",
+      "demo": true
+    },
+    {
+      "code": "N00.6",
+      "nameVi": "Acute nephritic syndrome with dense deposit disease",
+      "nameEn": "Acute nephritic syndrome with dense deposit disease",
+      "chapter": "N",
+      "sourceSystem": "ICD-10-CM-FY2027",
+      "sourceUrl": "https://www.cms.gov/files/zip/2027-code-descriptions-tabular-order.zip",
+      "demo": true
+    },
+    {
+      "code": "N00.7",
+      "nameVi": "Acute nephritic syndrome with diffuse crescentic glomerulonephritis",
+      "nameEn": "Acute nephritic syndrome with diffuse crescentic glomerulonephritis",
+      "chapter": "N",
+      "sourceSystem": "ICD-10-CM-FY2027",
+      "sourceUrl": "https://www.cms.gov/files/zip/2027-code-descriptions-tabular-order.zip",
+      "demo": true
+    },
+    {
+      "code": "N00.8",
+      "nameVi": "Acute nephritic syndrome with other morphologic changes",
+      "nameEn": "Acute nephritic syndrome with other morphologic changes",
+      "chapter": "N",
+      "sourceSystem": "ICD-10-CM-FY2027",
+      "sourceUrl": "https://www.cms.gov/files/zip/2027-code-descriptions-tabular-order.zip",
+      "demo": true
+    },
+    {
+      "code": "N00.9",
+      "nameVi": "Acute nephritic syndrome with unspecified morphologic changes",
+      "nameEn": "Acute nephritic syndrome with unspecified morphologic changes",
+      "chapter": "N",
+      "sourceSystem": "ICD-10-CM-FY2027",
+      "sourceUrl": "https://www.cms.gov/files/zip/2027-code-descriptions-tabular-order.zip",
+      "demo": true
+    },
+    {
+      "code": "N00.A",
+      "nameVi": "Acute nephritic syndrome with C3 glomerulonephritis",
+      "nameEn": "Acute nephritic syndrome with C3 glomerulonephritis",
+      "chapter": "N",
+      "sourceSystem": "ICD-10-CM-FY2027",
+      "sourceUrl": "https://www.cms.gov/files/zip/2027-code-descriptions-tabular-order.zip",
+      "demo": true
+    },
+    {
+      "code": "N01.0",
+      "nameVi": "Rapidly progressive nephritic syndrome with minor glomerular abnormality",
+      "nameEn": "Rapidly progressive nephritic syndrome with minor glomerular abnormality",
+      "chapter": "N",
+      "sourceSystem": "ICD-10-CM-FY2027",
+      "sourceUrl": "https://www.cms.gov/files/zip/2027-code-descriptions-tabular-order.zip",
+      "demo": true
+    },
+    {
+      "code": "N01.1",
+      "nameVi": "Rapidly progressive nephritic syndrome with focal and segmental glomerular lesions",
+      "nameEn": "Rapidly progressive nephritic syndrome with focal and segmental glomerular lesions",
+      "chapter": "N",
+      "sourceSystem": "ICD-10-CM-FY2027",
+      "sourceUrl": "https://www.cms.gov/files/zip/2027-code-descriptions-tabular-order.zip",
+      "demo": true
+    },
+    {
+      "code": "N01.2",
+      "nameVi": "Rapidly progressive nephritic syndrome with diffuse membranous glomerulonephritis",
+      "nameEn": "Rapidly progressive nephritic syndrome with diffuse membranous glomerulonephritis",
+      "chapter": "N",
+      "sourceSystem": "ICD-10-CM-FY2027",
+      "sourceUrl": "https://www.cms.gov/files/zip/2027-code-descriptions-tabular-order.zip",
+      "demo": true
+    },
+    {
+      "code": "N01.3",
+      "nameVi": "Rapidly progressive nephritic syndrome with diffuse mesangial proliferative glomerulonephritis",
+      "nameEn": "Rapidly progressive nephritic syndrome with diffuse mesangial proliferative glomerulonephritis",
+      "chapter": "N",
+      "sourceSystem": "ICD-10-CM-FY2027",
+      "sourceUrl": "https://www.cms.gov/files/zip/2027-code-descriptions-tabular-order.zip",
+      "demo": true
+    },
+    {
+      "code": "N01.4",
+      "nameVi": "Rapidly progressive nephritic syndrome with diffuse endocapillary proliferative glomerulonephritis",
+      "nameEn": "Rapidly progressive nephritic syndrome with diffuse endocapillary proliferative glomerulonephritis",
+      "chapter": "N",
+      "sourceSystem": "ICD-10-CM-FY2027",
+      "sourceUrl": "https://www.cms.gov/files/zip/2027-code-descriptions-tabular-order.zip",
+      "demo": true
+    },
+    {
+      "code": "N01.5",
+      "nameVi": "Rapidly progressive nephritic syndrome with diffuse mesangiocapillary glomerulonephritis",
+      "nameEn": "Rapidly progressive nephritic syndrome with diffuse mesangiocapillary glomerulonephritis",
+      "chapter": "N",
+      "sourceSystem": "ICD-10-CM-FY2027",
+      "sourceUrl": "https://www.cms.gov/files/zip/2027-code-descriptions-tabular-order.zip",
+      "demo": true
+    },
+    {
+      "code": "N39.0",
+      "nameVi": "Urinary tract infection, site not specified",
+      "nameEn": "Urinary tract infection, site not specified",
+      "chapter": "N",
+      "sourceSystem": "ICD-10-CM-FY2027",
+      "sourceUrl": "https://www.cms.gov/files/zip/2027-code-descriptions-tabular-order.zip",
+      "demo": true
+    },
+    {
+      "code": "R00.0",
+      "nameVi": "Tachycardia, unspecified",
+      "nameEn": "Tachycardia, unspecified",
+      "chapter": "R",
+      "sourceSystem": "ICD-10-CM-FY2027",
+      "sourceUrl": "https://www.cms.gov/files/zip/2027-code-descriptions-tabular-order.zip",
+      "demo": true
+    },
+    {
+      "code": "R00.1",
+      "nameVi": "Bradycardia, unspecified",
+      "nameEn": "Bradycardia, unspecified",
+      "chapter": "R",
+      "sourceSystem": "ICD-10-CM-FY2027",
+      "sourceUrl": "https://www.cms.gov/files/zip/2027-code-descriptions-tabular-order.zip",
+      "demo": true
+    },
+    {
+      "code": "R00.2",
+      "nameVi": "Palpitations",
+      "nameEn": "Palpitations",
+      "chapter": "R",
+      "sourceSystem": "ICD-10-CM-FY2027",
+      "sourceUrl": "https://www.cms.gov/files/zip/2027-code-descriptions-tabular-order.zip",
+      "demo": true
+    },
+    {
+      "code": "R00.8",
+      "nameVi": "Other abnormalities of heart beat",
+      "nameEn": "Other abnormalities of heart beat",
+      "chapter": "R",
+      "sourceSystem": "ICD-10-CM-FY2027",
+      "sourceUrl": "https://www.cms.gov/files/zip/2027-code-descriptions-tabular-order.zip",
+      "demo": true
+    },
+    {
+      "code": "R00.9",
+      "nameVi": "Unspecified abnormalities of heart beat",
+      "nameEn": "Unspecified abnormalities of heart beat",
+      "chapter": "R",
+      "sourceSystem": "ICD-10-CM-FY2027",
+      "sourceUrl": "https://www.cms.gov/files/zip/2027-code-descriptions-tabular-order.zip",
+      "demo": true
+    },
+    {
+      "code": "R01.0",
+      "nameVi": "Benign and innocent cardiac murmurs",
+      "nameEn": "Benign and innocent cardiac murmurs",
+      "chapter": "R",
+      "sourceSystem": "ICD-10-CM-FY2027",
+      "sourceUrl": "https://www.cms.gov/files/zip/2027-code-descriptions-tabular-order.zip",
+      "demo": true
+    },
+    {
+      "code": "R01.1",
+      "nameVi": "Cardiac murmur, unspecified",
+      "nameEn": "Cardiac murmur, unspecified",
+      "chapter": "R",
+      "sourceSystem": "ICD-10-CM-FY2027",
+      "sourceUrl": "https://www.cms.gov/files/zip/2027-code-descriptions-tabular-order.zip",
+      "demo": true
+    },
+    {
+      "code": "R01.2",
+      "nameVi": "Other cardiac sounds",
+      "nameEn": "Other cardiac sounds",
+      "chapter": "R",
+      "sourceSystem": "ICD-10-CM-FY2027",
+      "sourceUrl": "https://www.cms.gov/files/zip/2027-code-descriptions-tabular-order.zip",
+      "demo": true
+    },
+    {
+      "code": "R03.0",
+      "nameVi": "Elevated blood-pressure reading, without diagnosis of hypertension",
+      "nameEn": "Elevated blood-pressure reading, without diagnosis of hypertension",
+      "chapter": "R",
+      "sourceSystem": "ICD-10-CM-FY2027",
+      "sourceUrl": "https://www.cms.gov/files/zip/2027-code-descriptions-tabular-order.zip",
+      "demo": true
+    },
+    {
+      "code": "R03.1",
+      "nameVi": "Nonspecific low blood-pressure reading",
+      "nameEn": "Nonspecific low blood-pressure reading",
+      "chapter": "R",
+      "sourceSystem": "ICD-10-CM-FY2027",
+      "sourceUrl": "https://www.cms.gov/files/zip/2027-code-descriptions-tabular-order.zip",
+      "demo": true
+    },
+    {
+      "code": "R04.0",
+      "nameVi": "Epistaxis",
+      "nameEn": "Epistaxis",
+      "chapter": "R",
+      "sourceSystem": "ICD-10-CM-FY2027",
+      "sourceUrl": "https://www.cms.gov/files/zip/2027-code-descriptions-tabular-order.zip",
+      "demo": true
+    },
+    {
+      "code": "R04.1",
+      "nameVi": "Hemorrhage from throat",
+      "nameEn": "Hemorrhage from throat",
+      "chapter": "R",
+      "sourceSystem": "ICD-10-CM-FY2027",
+      "sourceUrl": "https://www.cms.gov/files/zip/2027-code-descriptions-tabular-order.zip",
+      "demo": true
+    },
+    {
+      "code": "R04.2",
+      "nameVi": "Hemoptysis",
+      "nameEn": "Hemoptysis",
+      "chapter": "R",
+      "sourceSystem": "ICD-10-CM-FY2027",
+      "sourceUrl": "https://www.cms.gov/files/zip/2027-code-descriptions-tabular-order.zip",
+      "demo": true
+    },
+    {
+      "code": "R04.9",
+      "nameVi": "Hemorrhage from respiratory passages, unspecified",
+      "nameEn": "Hemorrhage from respiratory passages, unspecified",
+      "chapter": "R",
+      "sourceSystem": "ICD-10-CM-FY2027",
+      "sourceUrl": "https://www.cms.gov/files/zip/2027-code-descriptions-tabular-order.zip",
+      "demo": true
+    },
+    {
+      "code": "R05.1",
+      "nameVi": "Acute cough",
+      "nameEn": "Acute cough",
+      "chapter": "R",
+      "sourceSystem": "ICD-10-CM-FY2027",
+      "sourceUrl": "https://www.cms.gov/files/zip/2027-code-descriptions-tabular-order.zip",
+      "demo": true
+    },
+    {
+      "code": "R05.2",
+      "nameVi": "Subacute cough",
+      "nameEn": "Subacute cough",
+      "chapter": "R",
+      "sourceSystem": "ICD-10-CM-FY2027",
+      "sourceUrl": "https://www.cms.gov/files/zip/2027-code-descriptions-tabular-order.zip",
+      "demo": true
+    },
+    {
+      "code": "R05.3",
+      "nameVi": "Chronic cough",
+      "nameEn": "Chronic cough",
+      "chapter": "R",
+      "sourceSystem": "ICD-10-CM-FY2027",
+      "sourceUrl": "https://www.cms.gov/files/zip/2027-code-descriptions-tabular-order.zip",
+      "demo": true
+    },
+    {
+      "code": "R05.9",
+      "nameVi": "Cough, unspecified",
+      "nameEn": "Cough, unspecified",
+      "chapter": "R",
+      "sourceSystem": "ICD-10-CM-FY2027",
+      "sourceUrl": "https://www.cms.gov/files/zip/2027-code-descriptions-tabular-order.zip",
+      "demo": true
+    },
+    {
+      "code": "R10.9",
+      "nameVi": "Unspecified abdominal pain",
+      "nameEn": "Unspecified abdominal pain",
+      "chapter": "R",
+      "sourceSystem": "ICD-10-CM-FY2027",
+      "sourceUrl": "https://www.cms.gov/files/zip/2027-code-descriptions-tabular-order.zip",
+      "demo": true
+    },
+    {
+      "code": "R11.0",
+      "nameVi": "Nausea",
+      "nameEn": "Nausea",
+      "chapter": "R",
+      "sourceSystem": "ICD-10-CM-FY2027",
+      "sourceUrl": "https://www.cms.gov/files/zip/2027-code-descriptions-tabular-order.zip",
+      "demo": true
+    },
+    {
+      "code": "R42",
+      "nameVi": "Dizziness and giddiness",
+      "nameEn": "Dizziness and giddiness",
+      "chapter": "R",
+      "sourceSystem": "ICD-10-CM-FY2027",
+      "sourceUrl": "https://www.cms.gov/files/zip/2027-code-descriptions-tabular-order.zip",
+      "demo": true
+    },
+    {
+      "code": "R50.9",
+      "nameVi": "Sốt, không xác định",
+      "nameEn": "Fever, unspecified",
+      "chapter": "R",
+      "sourceSystem": "ICD-10-CM-FY2027",
+      "sourceUrl": "https://www.cms.gov/files/zip/2027-code-descriptions-tabular-order.zip",
+      "demo": true
+    },
+    {
+      "code": "R51.9",
+      "nameVi": "Headache, unspecified",
+      "nameEn": "Headache, unspecified",
+      "chapter": "R",
+      "sourceSystem": "ICD-10-CM-FY2027",
+      "sourceUrl": "https://www.cms.gov/files/zip/2027-code-descriptions-tabular-order.zip",
+      "demo": true
+    },
+    {
+      "code": "R53.83",
+      "nameVi": "Other fatigue",
+      "nameEn": "Other fatigue",
+      "chapter": "R",
+      "sourceSystem": "ICD-10-CM-FY2027",
+      "sourceUrl": "https://www.cms.gov/files/zip/2027-code-descriptions-tabular-order.zip",
+      "demo": true
+    },
+    {
+      "code": "Z00.00",
+      "nameVi": "Encounter for general adult medical examination without abnormal findings",
+      "nameEn": "Encounter for general adult medical examination without abnormal findings",
+      "chapter": "Z",
+      "sourceSystem": "ICD-10-CM-FY2027",
+      "sourceUrl": "https://www.cms.gov/files/zip/2027-code-descriptions-tabular-order.zip",
+      "demo": true
+    }
+  ],
+  "interactions": [
+    {
+      "ingredientA": "amiodarone",
+      "ingredientB": "warfarin",
+      "severity": "MODERATE",
+      "note": "DEMO: amiodarone + warfarin; nhóm nguồn CYP inhibitor. Mức cảnh báo là cấu hình minh họa, cần đối chiếu nhãn thuốc.",
+      "sourceUrl": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=8ee94789-72d2-4c42-9dbd-0501e9767d97",
+      "demo": true
+    },
+    {
+      "ingredientA": "capecitabine",
+      "ingredientB": "warfarin",
+      "severity": "MODERATE",
+      "note": "DEMO: capecitabine + warfarin; nhóm nguồn CYP inhibitor. Mức cảnh báo là cấu hình minh họa, cần đối chiếu nhãn thuốc.",
+      "sourceUrl": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=8ee94789-72d2-4c42-9dbd-0501e9767d97",
+      "demo": true
+    },
+    {
+      "ingredientA": "cotrimoxazole",
+      "ingredientB": "warfarin",
+      "severity": "MODERATE",
+      "note": "DEMO: cotrimoxazole + warfarin; nhóm nguồn CYP inhibitor. Mức cảnh báo là cấu hình minh họa, cần đối chiếu nhãn thuốc.",
+      "sourceUrl": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=8ee94789-72d2-4c42-9dbd-0501e9767d97",
+      "demo": true
+    },
+    {
+      "ingredientA": "etravirine",
+      "ingredientB": "warfarin",
+      "severity": "MODERATE",
+      "note": "DEMO: etravirine + warfarin; nhóm nguồn CYP inhibitor. Mức cảnh báo là cấu hình minh họa, cần đối chiếu nhãn thuốc.",
+      "sourceUrl": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=8ee94789-72d2-4c42-9dbd-0501e9767d97",
+      "demo": true
+    },
+    {
+      "ingredientA": "fluconazole",
+      "ingredientB": "warfarin",
+      "severity": "MODERATE",
+      "note": "DEMO: fluconazole + warfarin; nhóm nguồn CYP inhibitor. Mức cảnh báo là cấu hình minh họa, cần đối chiếu nhãn thuốc.",
+      "sourceUrl": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=8ee94789-72d2-4c42-9dbd-0501e9767d97",
+      "demo": true
+    },
+    {
+      "ingredientA": "fluvastatin",
+      "ingredientB": "warfarin",
+      "severity": "MODERATE",
+      "note": "DEMO: fluvastatin + warfarin; nhóm nguồn CYP inhibitor. Mức cảnh báo là cấu hình minh họa, cần đối chiếu nhãn thuốc.",
+      "sourceUrl": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=8ee94789-72d2-4c42-9dbd-0501e9767d97",
+      "demo": true
+    },
+    {
+      "ingredientA": "fluvoxamine",
+      "ingredientB": "warfarin",
+      "severity": "MODERATE",
+      "note": "DEMO: fluvoxamine + warfarin; nhóm nguồn CYP inhibitor. Mức cảnh báo là cấu hình minh họa, cần đối chiếu nhãn thuốc.",
+      "sourceUrl": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=8ee94789-72d2-4c42-9dbd-0501e9767d97",
+      "demo": true
+    },
+    {
+      "ingredientA": "metronidazole",
+      "ingredientB": "warfarin",
+      "severity": "MODERATE",
+      "note": "DEMO: metronidazole + warfarin; nhóm nguồn CYP inhibitor. Mức cảnh báo là cấu hình minh họa, cần đối chiếu nhãn thuốc.",
+      "sourceUrl": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=8ee94789-72d2-4c42-9dbd-0501e9767d97",
+      "demo": true
+    },
+    {
+      "ingredientA": "miconazole",
+      "ingredientB": "warfarin",
+      "severity": "MODERATE",
+      "note": "DEMO: miconazole + warfarin; nhóm nguồn CYP inhibitor. Mức cảnh báo là cấu hình minh họa, cần đối chiếu nhãn thuốc.",
+      "sourceUrl": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=8ee94789-72d2-4c42-9dbd-0501e9767d97",
+      "demo": true
+    },
+    {
+      "ingredientA": "oxandrolone",
+      "ingredientB": "warfarin",
+      "severity": "MODERATE",
+      "note": "DEMO: oxandrolone + warfarin; nhóm nguồn CYP inhibitor. Mức cảnh báo là cấu hình minh họa, cần đối chiếu nhãn thuốc.",
+      "sourceUrl": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=8ee94789-72d2-4c42-9dbd-0501e9767d97",
+      "demo": true
+    },
+    {
+      "ingredientA": "sulfinpyrazone",
+      "ingredientB": "warfarin",
+      "severity": "MODERATE",
+      "note": "DEMO: sulfinpyrazone + warfarin; nhóm nguồn CYP inhibitor. Mức cảnh báo là cấu hình minh họa, cần đối chiếu nhãn thuốc.",
+      "sourceUrl": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=8ee94789-72d2-4c42-9dbd-0501e9767d97",
+      "demo": true
+    },
+    {
+      "ingredientA": "tigecycline",
+      "ingredientB": "warfarin",
+      "severity": "MODERATE",
+      "note": "DEMO: tigecycline + warfarin; nhóm nguồn CYP inhibitor. Mức cảnh báo là cấu hình minh họa, cần đối chiếu nhãn thuốc.",
+      "sourceUrl": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=8ee94789-72d2-4c42-9dbd-0501e9767d97",
+      "demo": true
+    },
+    {
+      "ingredientA": "voriconazole",
+      "ingredientB": "warfarin",
+      "severity": "MODERATE",
+      "note": "DEMO: voriconazole + warfarin; nhóm nguồn CYP inhibitor. Mức cảnh báo là cấu hình minh họa, cần đối chiếu nhãn thuốc.",
+      "sourceUrl": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=8ee94789-72d2-4c42-9dbd-0501e9767d97",
+      "demo": true
+    },
+    {
+      "ingredientA": "warfarin",
+      "ingredientB": "zafirlukast",
+      "severity": "MODERATE",
+      "note": "DEMO: zafirlukast + warfarin; nhóm nguồn CYP inhibitor. Mức cảnh báo là cấu hình minh họa, cần đối chiếu nhãn thuốc.",
+      "sourceUrl": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=8ee94789-72d2-4c42-9dbd-0501e9767d97",
+      "demo": true
+    },
+    {
+      "ingredientA": "aprepitant",
+      "ingredientB": "warfarin",
+      "severity": "MODERATE",
+      "note": "DEMO: aprepitant + warfarin; nhóm nguồn CYP inducer. Mức cảnh báo là cấu hình minh họa, cần đối chiếu nhãn thuốc.",
+      "sourceUrl": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=8ee94789-72d2-4c42-9dbd-0501e9767d97",
+      "demo": true
+    },
+    {
+      "ingredientA": "bosentan",
+      "ingredientB": "warfarin",
+      "severity": "MODERATE",
+      "note": "DEMO: bosentan + warfarin; nhóm nguồn CYP inducer. Mức cảnh báo là cấu hình minh họa, cần đối chiếu nhãn thuốc.",
+      "sourceUrl": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=8ee94789-72d2-4c42-9dbd-0501e9767d97",
+      "demo": true
+    },
+    {
+      "ingredientA": "carbamazepine",
+      "ingredientB": "warfarin",
+      "severity": "MODERATE",
+      "note": "DEMO: carbamazepine + warfarin; nhóm nguồn CYP inducer. Mức cảnh báo là cấu hình minh họa, cần đối chiếu nhãn thuốc.",
+      "sourceUrl": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=8ee94789-72d2-4c42-9dbd-0501e9767d97",
+      "demo": true
+    },
+    {
+      "ingredientA": "phenobarbital",
+      "ingredientB": "warfarin",
+      "severity": "MODERATE",
+      "note": "DEMO: phenobarbital + warfarin; nhóm nguồn CYP inducer. Mức cảnh báo là cấu hình minh họa, cần đối chiếu nhãn thuốc.",
+      "sourceUrl": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=8ee94789-72d2-4c42-9dbd-0501e9767d97",
+      "demo": true
+    },
+    {
+      "ingredientA": "rifampin",
+      "ingredientB": "warfarin",
+      "severity": "MODERATE",
+      "note": "DEMO: rifampin + warfarin; nhóm nguồn CYP inducer. Mức cảnh báo là cấu hình minh họa, cần đối chiếu nhãn thuốc.",
+      "sourceUrl": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=8ee94789-72d2-4c42-9dbd-0501e9767d97",
+      "demo": true
+    },
+    {
+      "ingredientA": "aspirin",
+      "ingredientB": "warfarin",
+      "severity": "MAJOR",
+      "note": "DEMO: aspirin + warfarin; nhóm nguồn Bleeding risk. Mức cảnh báo là cấu hình minh họa, cần đối chiếu nhãn thuốc.",
+      "sourceUrl": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=8ee94789-72d2-4c42-9dbd-0501e9767d97",
+      "demo": true
+    },
+    {
+      "ingredientA": "cilostazol",
+      "ingredientB": "warfarin",
+      "severity": "MAJOR",
+      "note": "DEMO: cilostazol + warfarin; nhóm nguồn Bleeding risk. Mức cảnh báo là cấu hình minh họa, cần đối chiếu nhãn thuốc.",
+      "sourceUrl": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=8ee94789-72d2-4c42-9dbd-0501e9767d97",
+      "demo": true
+    },
+    {
+      "ingredientA": "clopidogrel",
+      "ingredientB": "warfarin",
+      "severity": "MAJOR",
+      "note": "DEMO: clopidogrel + warfarin; nhóm nguồn Bleeding risk. Mức cảnh báo là cấu hình minh họa, cần đối chiếu nhãn thuốc.",
+      "sourceUrl": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=8ee94789-72d2-4c42-9dbd-0501e9767d97",
+      "demo": true
+    },
+    {
+      "ingredientA": "dipyridamole",
+      "ingredientB": "warfarin",
+      "severity": "MAJOR",
+      "note": "DEMO: dipyridamole + warfarin; nhóm nguồn Bleeding risk. Mức cảnh báo là cấu hình minh họa, cần đối chiếu nhãn thuốc.",
+      "sourceUrl": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=8ee94789-72d2-4c42-9dbd-0501e9767d97",
+      "demo": true
+    },
+    {
+      "ingredientA": "prasugrel",
+      "ingredientB": "warfarin",
+      "severity": "MAJOR",
+      "note": "DEMO: prasugrel + warfarin; nhóm nguồn Bleeding risk. Mức cảnh báo là cấu hình minh họa, cần đối chiếu nhãn thuốc.",
+      "sourceUrl": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=8ee94789-72d2-4c42-9dbd-0501e9767d97",
+      "demo": true
+    },
+    {
+      "ingredientA": "ticlopidine",
+      "ingredientB": "warfarin",
+      "severity": "MAJOR",
+      "note": "DEMO: ticlopidine + warfarin; nhóm nguồn Bleeding risk. Mức cảnh báo là cấu hình minh họa, cần đối chiếu nhãn thuốc.",
+      "sourceUrl": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=8ee94789-72d2-4c42-9dbd-0501e9767d97",
+      "demo": true
+    },
+    {
+      "ingredientA": "celecoxib",
+      "ingredientB": "warfarin",
+      "severity": "MAJOR",
+      "note": "DEMO: celecoxib + warfarin; nhóm nguồn Bleeding risk. Mức cảnh báo là cấu hình minh họa, cần đối chiếu nhãn thuốc.",
+      "sourceUrl": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=8ee94789-72d2-4c42-9dbd-0501e9767d97",
+      "demo": true
+    },
+    {
+      "ingredientA": "diclofenac",
+      "ingredientB": "warfarin",
+      "severity": "MAJOR",
+      "note": "DEMO: diclofenac + warfarin; nhóm nguồn Bleeding risk. Mức cảnh báo là cấu hình minh họa, cần đối chiếu nhãn thuốc.",
+      "sourceUrl": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=8ee94789-72d2-4c42-9dbd-0501e9767d97",
+      "demo": true
+    },
+    {
+      "ingredientA": "ibuprofen",
+      "ingredientB": "warfarin",
+      "severity": "MAJOR",
+      "note": "DEMO: ibuprofen + warfarin; nhóm nguồn Bleeding risk. Mức cảnh báo là cấu hình minh họa, cần đối chiếu nhãn thuốc.",
+      "sourceUrl": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=8ee94789-72d2-4c42-9dbd-0501e9767d97",
+      "demo": true
+    },
+    {
+      "ingredientA": "naproxen",
+      "ingredientB": "warfarin",
+      "severity": "MAJOR",
+      "note": "DEMO: naproxen + warfarin; nhóm nguồn Bleeding risk. Mức cảnh báo là cấu hình minh họa, cần đối chiếu nhãn thuốc.",
+      "sourceUrl": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=8ee94789-72d2-4c42-9dbd-0501e9767d97",
+      "demo": true
+    },
+    {
+      "ingredientA": "sertraline",
+      "ingredientB": "warfarin",
+      "severity": "MAJOR",
+      "note": "DEMO: sertraline + warfarin; nhóm nguồn Bleeding risk. Mức cảnh báo là cấu hình minh họa, cần đối chiếu nhãn thuốc.",
+      "sourceUrl": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=8ee94789-72d2-4c42-9dbd-0501e9767d97",
+      "demo": true
+    }
+  ]
+}

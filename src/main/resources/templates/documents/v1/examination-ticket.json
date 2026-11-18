@@ -1,0 +1,118 @@
+{
+  "schemaVersion": 1,
+  "templateVersion": "1.0.0",
+  "type": "EXAMINATION_TICKET",
+  "title": "PHIẾU TIẾP NHẬN / KHÁM BỆNH",
+  "sourceType": "APPOINTMENT",
+  "officialSourceStates": [
+    "CHECKED_IN",
+    "COMPLETED"
+  ],
+  "page": {
+    "size": "A4",
+    "orientation": "PORTRAIT",
+    "marginMm": 15
+  },
+  "letterhead": {
+    "logo": "assets/minh-an-logo.png",
+    "clinicName": "clinic.name",
+    "address": "clinic.address",
+    "phone": "clinic.phone",
+    "email": "clinic.email"
+  },
+  "metadata": [
+    {
+      "key": "document.code",
+      "label": "Mã tài liệu"
+    },
+    {
+      "key": "document.issuedAt",
+      "label": "Ngày phát hành"
+    },
+    {
+      "key": "document.sourceVersion",
+      "label": "Phiên bản nguồn"
+    }
+  ],
+  "patientFields": [
+    {
+      "key": "patient.fullName",
+      "label": "Họ và tên"
+    },
+    {
+      "key": "patient.code",
+      "label": "Mã bệnh nhân"
+    },
+    {
+      "key": "patient.dateOfBirth",
+      "label": "Ngày sinh"
+    },
+    {
+      "key": "patient.gender",
+      "label": "Giới tính"
+    },
+    {
+      "key": "patient.phone",
+      "label": "Điện thoại"
+    },
+    {
+      "key": "patient.address",
+      "label": "Địa chỉ"
+    }
+  ],
+  "fields": [
+    {
+      "key": "appointment.code",
+      "label": "Mã lịch hẹn"
+    },
+    {
+      "key": "appointment.queueNumber",
+      "label": "Số thứ tự"
+    },
+    {
+      "key": "appointment.scheduledAt",
+      "label": "Giờ hẹn"
+    },
+    {
+      "key": "appointment.checkedInAt",
+      "label": "Giờ tiếp nhận"
+    },
+    {
+      "key": "doctor.fullName",
+      "label": "Bác sĩ"
+    },
+    {
+      "key": "service.name",
+      "label": "Dịch vụ"
+    },
+    {
+      "key": "room.name",
+      "label": "Phòng khám"
+    }
+  ],
+  "sections": [
+    {
+      "key": "appointment.symptoms",
+      "label": "Lý do đến khám"
+    },
+    {
+      "key": "appointment.instructions",
+      "label": "Hướng dẫn đến phòng khám"
+    }
+  ],
+  "table": null,
+  "qr": {
+    "key": "document.businessQrImage",
+    "caption": "QR tra cứu nghiệp vụ",
+    "sizeMm": 24,
+    "visibleWhenPresent": true
+  },
+  "signatures": [
+    "Nhân viên tiếp nhận",
+    "Người bệnh"
+  ],
+  "footer": "Vui lòng giữ phiếu và chờ gọi theo số thứ tự.",
+  "draftWatermark": "BẢN NHÁP",
+  "previewWatermark": "MẪU THIẾT KẾ — CHƯA PHÁT HÀNH",
+  "demoWatermark": "DỮ LIỆU DEMO — KHÔNG DÙNG ĐỂ ĐIỀU TRỊ"
+}

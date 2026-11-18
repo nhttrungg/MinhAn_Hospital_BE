@@ -1,0 +1,154 @@
+{
+  "schemaVersion": 1,
+  "templateVersion": "1.0.0",
+  "type": "DIAGNOSTIC_RESULT",
+  "title": "PHIẾU KẾT QUẢ CẬN LÂM SÀNG",
+  "sourceType": "DIAGNOSTIC_RESULT",
+  "officialSourceStates": [
+    "PUBLISHED"
+  ],
+  "page": {
+    "size": "A4",
+    "orientation": "PORTRAIT",
+    "marginMm": 15
+  },
+  "letterhead": {
+    "logo": "assets/minh-an-logo.png",
+    "clinicName": "clinic.name",
+    "address": "clinic.address",
+    "phone": "clinic.phone",
+    "email": "clinic.email"
+  },
+  "metadata": [
+    {
+      "key": "document.code",
+      "label": "Mã tài liệu"
+    },
+    {
+      "key": "document.issuedAt",
+      "label": "Ngày phát hành"
+    },
+    {
+      "key": "document.sourceVersion",
+      "label": "Phiên bản nguồn"
+    }
+  ],
+  "patientFields": [
+    {
+      "key": "patient.fullName",
+      "label": "Họ và tên"
+    },
+    {
+      "key": "patient.code",
+      "label": "Mã bệnh nhân"
+    },
+    {
+      "key": "patient.dateOfBirth",
+      "label": "Ngày sinh"
+    },
+    {
+      "key": "patient.gender",
+      "label": "Giới tính"
+    },
+    {
+      "key": "patient.phone",
+      "label": "Điện thoại"
+    },
+    {
+      "key": "patient.address",
+      "label": "Địa chỉ"
+    }
+  ],
+  "fields": [
+    {
+      "key": "order.code",
+      "label": "Mã chỉ định"
+    },
+    {
+      "key": "result.code",
+      "label": "Mã kết quả"
+    },
+    {
+      "key": "service.name",
+      "label": "Dịch vụ"
+    },
+    {
+      "key": "sample.code",
+      "label": "Mã mẫu"
+    },
+    {
+      "key": "sample.collectedAt",
+      "label": "Ngày lấy mẫu"
+    },
+    {
+      "key": "result.publishedAt",
+      "label": "Ngày công bố"
+    },
+    {
+      "key": "result.authorName",
+      "label": "Người thực hiện"
+    },
+    {
+      "key": "result.reviewerName",
+      "label": "Người duyệt"
+    },
+    {
+      "key": "room.name",
+      "label": "Phòng thực hiện"
+    }
+  ],
+  "sections": [
+    {
+      "key": "result.description",
+      "label": "Mô tả"
+    },
+    {
+      "key": "result.conclusion",
+      "label": "Kết luận"
+    },
+    {
+      "key": "result.amendmentReason",
+      "label": "Lý do bổ sung"
+    }
+  ],
+  "table": {
+    "rowsKey": "result.measurements",
+    "columns": [
+      {
+        "key": "name",
+        "label": "Chỉ số"
+      },
+      {
+        "key": "value",
+        "label": "Kết quả"
+      },
+      {
+        "key": "unit",
+        "label": "Đơn vị"
+      },
+      {
+        "key": "referenceRange",
+        "label": "Khoảng tham chiếu"
+      },
+      {
+        "key": "flag",
+        "label": "Ghi chú"
+      }
+    ],
+    "repeatHeader": true
+  },
+  "qr": {
+    "key": "document.businessQrImage",
+    "caption": "QR tra cứu nghiệp vụ",
+    "sizeMm": 24,
+    "visibleWhenPresent": true
+  },
+  "signatures": [
+    "Người thực hiện",
+    "Người duyệt kết quả"
+  ],
+  "footer": "Kết quả bổ sung được phát hành theo phiên bản, giữ nguyên bản đã công bố.",
+  "draftWatermark": "BẢN NHÁP",
+  "previewWatermark": "MẪU THIẾT KẾ — CHƯA PHÁT HÀNH",
+  "demoWatermark": "DỮ LIỆU DEMO — KHÔNG DÙNG ĐỂ ĐIỀU TRỊ"
+}

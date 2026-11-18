@@ -1,0 +1,142 @@
+{
+  "schemaVersion": 1,
+  "templateVersion": "1.0.0",
+  "type": "DISPENSING_TICKET",
+  "title": "PHIẾU CẤP THUỐC",
+  "sourceType": "DISPENSING",
+  "officialSourceStates": [
+    "DELIVERED"
+  ],
+  "page": {
+    "size": "A4",
+    "orientation": "PORTRAIT",
+    "marginMm": 15
+  },
+  "letterhead": {
+    "logo": "assets/minh-an-logo.png",
+    "clinicName": "clinic.name",
+    "address": "clinic.address",
+    "phone": "clinic.phone",
+    "email": "clinic.email"
+  },
+  "metadata": [
+    {
+      "key": "document.code",
+      "label": "Mã tài liệu"
+    },
+    {
+      "key": "document.issuedAt",
+      "label": "Ngày phát hành"
+    },
+    {
+      "key": "document.sourceVersion",
+      "label": "Phiên bản nguồn"
+    }
+  ],
+  "patientFields": [
+    {
+      "key": "patient.fullName",
+      "label": "Họ và tên"
+    },
+    {
+      "key": "patient.code",
+      "label": "Mã bệnh nhân"
+    },
+    {
+      "key": "patient.dateOfBirth",
+      "label": "Ngày sinh"
+    },
+    {
+      "key": "patient.gender",
+      "label": "Giới tính"
+    },
+    {
+      "key": "patient.phone",
+      "label": "Điện thoại"
+    },
+    {
+      "key": "patient.address",
+      "label": "Địa chỉ"
+    }
+  ],
+  "fields": [
+    {
+      "key": "dispensing.code",
+      "label": "Mã phiếu"
+    },
+    {
+      "key": "prescription.code",
+      "label": "Mã đơn"
+    },
+    {
+      "key": "counter.name",
+      "label": "Quầy thuốc"
+    },
+    {
+      "key": "dispensing.deliveredBy",
+      "label": "Dược sĩ giao"
+    },
+    {
+      "key": "dispensing.deliveredAt",
+      "label": "Thời điểm giao"
+    },
+    {
+      "key": "receipt.code",
+      "label": "Mã biên lai"
+    }
+  ],
+  "sections": [
+    {
+      "key": "dispensing.remainingItems",
+      "label": "Phần còn thiếu"
+    },
+    {
+      "key": "dispensing.followUpInstructions",
+      "label": "Hướng dẫn nhận bổ sung"
+    }
+  ],
+  "table": {
+    "rowsKey": "dispensing.lines",
+    "columns": [
+      {
+        "key": "name",
+        "label": "Thuốc / hàm lượng"
+      },
+      {
+        "key": "batchCode",
+        "label": "Lô"
+      },
+      {
+        "key": "expiryDate",
+        "label": "Hạn dùng"
+      },
+      {
+        "key": "quantityWithUnit",
+        "label": "Thực giao"
+      },
+      {
+        "key": "unitPrice",
+        "label": "Đơn giá"
+      },
+      {
+        "key": "amount",
+        "label": "Thành tiền"
+      }
+    ],
+    "repeatHeader": true
+  },
+  "qr": {
+    "key": "document.businessQrImage",
+    "caption": "QR tra cứu nghiệp vụ",
+    "sizeMm": 24,
+    "visibleWhenPresent": true
+  },
+  "signatures": [
+    "Dược sĩ giao thuốc",
+    "Người nhận thuốc"
+  ],
+  "footer": "Số lượng trên phiếu là số thực giao của lần cấp này, không phải toàn bộ số kê.",
+  "draftWatermark": "BẢN NHÁP",
+  "previewWatermark": "MẪU THIẾT KẾ — CHƯA PHÁT HÀNH",
+  "demoWatermark": "DỮ LIỆU DEMO — KHÔNG DÙNG ĐỂ ĐIỀU TRỊ"
+}

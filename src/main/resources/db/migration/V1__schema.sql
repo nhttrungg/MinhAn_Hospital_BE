@@ -1,0 +1,161 @@
+SET NAMES utf8mb4;
+
+CREATE TABLE roles (
+    id BIGINT NOT NULL AUTO_INCREMENT,
+    code VARCHAR(50) NOT NULL,
+    name VARCHAR(100) NOT NULL,
+    PRIMARY KEY (id),
+    CONSTRAINT uk_roles_code UNIQUE (code)
+) ENGINE=InnoDB;
+
+CREATE TABLE users (
+    id BIGINT NOT NULL AUTO_INCREMENT,
+    username VARCHAR(50) NOT NULL,
+    password_hash VARCHAR(100) NOT NULL,
+    full_name VARCHAR(200) NOT NULL,
+    email VARCHAR(255) NULL,
+    phone VARCHAR(20) NULL,
+    user_type VARCHAR(20) NOT NULL,
+    status VARCHAR(30) NOT NULL,
+    session_version BIGINT NOT NULL DEFAULT 0,
+    created_at DATETIME(6) NOT NULL DEFAULT CURRENT_TIMESTAMP(6),
+    updated_at DATETIME(6) NOT NULL DEFAULT CURRENT_TIMESTAMP(6) ON UPDATE CURRENT_TIMESTAMP(6),
+    PRIMARY KEY (id),
+    CONSTRAINT uk_users_username UNIQUE (username),
+    CONSTRAINT uk_users_email UNIQUE (email),
+    CONSTRAINT chk_users_type CHECK (user_type IN ('STAFF', 'PATIENT')),
+    CONSTRAINT chk_users_status CHECK (status IN ('ACTIVE', 'DISABLED', 'PENDING_ACTIVATION'))
+) ENGINE=InnoDB;
+
+CREATE TABLE user_roles (
+    user_id BIGINT NOT NULL,
+    role_id BIGINT NOT NULL,
+    PRIMARY KEY (user_id, role_id),
+    CONSTRAINT fk_user_roles_user FOREIGN KEY (user_id) REFERENCES users (id),
+    CONSTRAINT fk_user_roles_role FOREIGN KEY (role_id) REFERENCES roles (id)
+) ENGINE=InnoDB;
+
+CREATE TABLE departments (
+    id BIGINT NOT NULL AUTO_INCREMENT,
+    code VARCHAR(30) NOT NULL,
+    name VARCHAR(200) NOT NULL,
+    description VARCHAR(500) NULL,
+    active TINYINT(1) NOT NULL DEFAULT 1,
+    created_at DATETIME(6) NOT NULL DEFAULT CURRENT_TIMESTAMP(6),
+    updated_at DATETIME(6) NOT NULL DEFAULT CURRENT_TIMESTAMP(6) ON UPDATE CURRENT_TIMESTAMP(6),
+    PRIMARY KEY (id),
+    CONSTRAINT uk_departments_code UNIQUE (code)
+) ENGINE=InnoDB;
+
+CREATE TABLE rooms (
+    id BIGINT NOT NULL AUTO_INCREMENT,
+    department_id BIGINT NOT NULL,
+    code VARCHAR(30) NOT NULL,
+    name VARCHAR(200) NOT NULL,
+    room_type VARCHAR(30) NOT NULL,
+    active TINYINT(1) NOT NULL DEFAULT 1,
+    created_at DATETIME(6) NOT NULL DEFAULT CURRENT_TIMESTAMP(6),
+    updated_at DATETIME(6) NOT NULL DEFAULT CURRENT_TIMESTAMP(6) ON UPDATE CURRENT_TIMESTAMP(6),
+    PRIMARY KEY (id),
+    CONSTRAINT uk_rooms_department_code UNIQUE (department_id, code),
+    CONSTRAINT fk_rooms_department FOREIGN KEY (department_id) REFERENCES departments (id),
+    CONSTRAINT chk_rooms_type CHECK (room_type IN ('CLINIC', 'WARD', 'LAB', 'PHARMACY', 'CASHIER', 'ADMIN'))
+) ENGINE=InnoDB;
+
+CREATE TABLE beds (
+    id BIGINT NOT NULL AUTO_INCREMENT,
+    room_id BIGINT NOT NULL,
+    code VARCHAR(30) NOT NULL,
+    status VARCHAR(20) NOT NULL,
+    active TINYINT(1) NOT NULL DEFAULT 1,
+    created_at DATETIME(6) NOT NULL DEFAULT CURRENT_TIMESTAMP(6),
+    updated_at DATETIME(6) NOT NULL DEFAULT CURRENT_TIMESTAMP(6) ON UPDATE CURRENT_TIMESTAMP(6),
+    PRIMARY KEY (id),
+    CONSTRAINT uk_beds_room_code UNIQUE (room_id, code),
+    CONSTRAINT fk_beds_room FOREIGN KEY (room_id) REFERENCES rooms (id),
+    CONSTRAINT chk_beds_status CHECK (status IN ('AVAILABLE', 'OCCUPIED', 'MAINTENANCE'))
+) ENGINE=InnoDB;
+
+CREATE TABLE services (
+    id BIGINT NOT NULL AUTO_INCREMENT,
+    code VARCHAR(30) NOT NULL,
+    name VARCHAR(200) NOT NULL,
+    category VARCHAR(30) NOT NULL,
+    unit VARCHAR(50) NOT NULL,
+    active TINYINT(1) NOT NULL DEFAULT 1,
+    created_at DATETIME(6) NOT NULL DEFAULT CURRENT_TIMESTAMP(6),
+    updated_at DATETIME(6) NOT NULL DEFAULT CURRENT_TIMESTAMP(6) ON UPDATE CURRENT_TIMESTAMP(6),
+    PRIMARY KEY (id),
+    CONSTRAINT uk_services_code UNIQUE (code),
+    CONSTRAINT chk_services_category CHECK (category IN ('EXAMINATION', 'LAB', 'IMAGING', 'BED', 'PROCEDURE', 'OTHER'))
+) ENGINE=InnoDB;
+
+CREATE TABLE service_prices (
+    id BIGINT NOT NULL AUTO_INCREMENT,
+    service_id BIGINT NOT NULL,
+    unit_price DECIMAL(15, 2) NOT NULL,
+    effective_from DATE NOT NULL,
+    effective_to DATE NULL,
+    open_marker VARCHAR(4) GENERATED ALWAYS AS (IF(effective_to IS NULL, 'OPEN', NULL)) STORED,
+    created_at DATETIME(6) NOT NULL DEFAULT CURRENT_TIMESTAMP(6),
+    PRIMARY KEY (id),
+    CONSTRAINT uk_service_prices_open UNIQUE (service_id, open_marker),
+    CONSTRAINT fk_service_prices_service FOREIGN KEY (service_id) REFERENCES services (id),
+    CONSTRAINT chk_service_prices_amount CHECK (unit_price >= 0),
+    CONSTRAINT chk_service_prices_range CHECK (effective_to IS NULL OR effective_to >= effective_from)
+) ENGINE=InnoDB;
+
+CREATE TABLE staff (
+    id BIGINT NOT NULL AUTO_INCREMENT,
+    user_id BIGINT NOT NULL,
+    employee_code VARCHAR(30) NOT NULL,
+    department_id BIGINT NOT NULL,
+    title VARCHAR(100) NOT NULL,
+    active TINYINT(1) NOT NULL DEFAULT 1,
+    created_at DATETIME(6) NOT NULL DEFAULT CURRENT_TIMESTAMP(6),
+    updated_at DATETIME(6) NOT NULL DEFAULT CURRENT_TIMESTAMP(6) ON UPDATE CURRENT_TIMESTAMP(6),
+    PRIMARY KEY (id),
+    CONSTRAINT uk_staff_user UNIQUE (user_id),
+    CONSTRAINT uk_staff_employee_code UNIQUE (employee_code),
+    CONSTRAINT fk_staff_user FOREIGN KEY (user_id) REFERENCES users (id),
+    CONSTRAINT fk_staff_department FOREIGN KEY (department_id) REFERENCES departments (id)
+) ENGINE=InnoDB;
+
+CREATE TABLE audit_logs (
+    id BIGINT NOT NULL AUTO_INCREMENT,
+    actor_user_id BIGINT NULL,
+    action VARCHAR(50) NOT NULL,
+    entity_type VARCHAR(50) NOT NULL,
+    entity_id VARCHAR(64) NULL,
+    detail VARCHAR(1000) NULL,
+    request_id VARCHAR(64) NULL,
+    created_at DATETIME(6) NOT NULL DEFAULT CURRENT_TIMESTAMP(6),
+    PRIMARY KEY (id),
+    CONSTRAINT fk_audit_actor FOREIGN KEY (actor_user_id) REFERENCES users (id),
+    INDEX ix_audit_entity (entity_type, entity_id),
+    INDEX ix_audit_actor (actor_user_id),
+    INDEX ix_audit_created (created_at)
+) ENGINE=InnoDB;
+
+CREATE TABLE SPRING_SESSION (
+    PRIMARY_ID CHAR(36) NOT NULL,
+    SESSION_ID CHAR(36) NOT NULL,
+    CREATION_TIME BIGINT NOT NULL,
+    LAST_ACCESS_TIME BIGINT NOT NULL,
+    MAX_INACTIVE_INTERVAL INT NOT NULL,
+    EXPIRY_TIME BIGINT NOT NULL,
+    PRINCIPAL_NAME VARCHAR(100),
+    CONSTRAINT SPRING_SESSION_PK PRIMARY KEY (PRIMARY_ID)
+) ENGINE=InnoDB ROW_FORMAT=DYNAMIC;
+
+CREATE UNIQUE INDEX SPRING_SESSION_IX1 ON SPRING_SESSION (SESSION_ID);
+CREATE INDEX SPRING_SESSION_IX2 ON SPRING_SESSION (EXPIRY_TIME);
+CREATE INDEX SPRING_SESSION_IX3 ON SPRING_SESSION (PRINCIPAL_NAME);
+
+CREATE TABLE SPRING_SESSION_ATTRIBUTES (
+    SESSION_PRIMARY_ID CHAR(36) NOT NULL,
+    ATTRIBUTE_NAME VARCHAR(200) NOT NULL,
+    ATTRIBUTE_BYTES BLOB NOT NULL,
+    CONSTRAINT SPRING_SESSION_ATTRIBUTES_PK PRIMARY KEY (SESSION_PRIMARY_ID, ATTRIBUTE_NAME),
+    CONSTRAINT SPRING_SESSION_ATTRIBUTES_FK FOREIGN KEY (SESSION_PRIMARY_ID) REFERENCES SPRING_SESSION (PRIMARY_ID) ON DELETE CASCADE
+) ENGINE=InnoDB ROW_FORMAT=DYNAMIC;

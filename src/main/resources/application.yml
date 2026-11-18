@@ -1,0 +1,193 @@
+spring:
+  application:
+    name: an-tam-clinic
+  datasource:
+    url: jdbc:mysql://${DB_HOST:127.0.0.1}:${DB_PORT:3306}/${DB_NAME:antam_clinic}?characterEncoding=UTF-8&connectionTimeZone=UTC&forceConnectionTimeZoneToSession=true&useSSL=false&allowPublicKeyRetrieval=true&tinyInt1isBit=false
+    username: ${DB_USER:antam}
+    password: ${DB_PASSWORD:antam_dev_password}
+    hikari:
+      maximum-pool-size: ${DB_POOL_MAX:40}
+      minimum-idle: ${DB_POOL_MIN:10}
+      connection-timeout: 3000
+      max-lifetime: 1500000
+      leak-detection-threshold: 20000
+      data-source-properties:
+        cachePrepStmts: true
+        prepStmtCacheSize: 500
+        prepStmtCacheSqlLimit: 4096
+        useServerPrepStmts: true
+        rewriteBatchedStatements: true
+        useLocalSessionState: true
+        elideSetAutoCommits: true
+  jpa:
+    open-in-view: false
+    hibernate:
+      ddl-auto: validate
+    properties:
+      hibernate.jdbc.time_zone: UTC
+      hibernate.type.preferred_boolean_jdbc_type: TINYINT
+      hibernate.default_batch_fetch_size: 50
+      hibernate.jdbc.batch_size: 50
+      hibernate.order_inserts: true
+      hibernate.order_updates: true
+      hibernate.query.plan_cache_max_size: 2048
+  flyway:
+    enabled: true
+    user: ${DB_MIGRATION_USER:${DB_USER:antam}}
+    password: ${DB_MIGRATION_PASSWORD:${DB_PASSWORD:antam_dev_password}}
+    locations: classpath:db/migration
+    encoding: UTF-8
+    placeholder-replacement: false
+  session:
+    timeout: 8h
+    redis:
+      flush-mode: on-save
+      namespace: ${SESSION_NAMESPACE:antam:session}
+  jackson:
+    time-zone: Asia/Ho_Chi_Minh
+    datatype:
+      datetime:
+        WRITE_DATES_AS_TIMESTAMPS: false
+  data:
+    redis:
+      host: ${REDIS_HOST:127.0.0.1}
+      port: ${REDIS_PORT:6379}
+      password: ${REDIS_PASSWORD:}
+      timeout: 2s
+      connect-timeout: 2s
+    web:
+      pageable:
+        max-page-size: 100
+        default-page-size: 20
+  mvc:
+    async:
+      request-timeout: 1800000
+    problemdetails:
+      enabled: true
+  lifecycle:
+    timeout-per-shutdown-phase: 30s
+
+server:
+  port: ${PORT:8080}
+  forward-headers-strategy: native
+  shutdown: graceful
+  tomcat:
+    threads:
+      max: ${TOMCAT_THREADS_MAX:400}
+      min-spare: 50
+    max-connections: 10000
+    accept-count: 500
+    connection-timeout: 10s
+    keep-alive-timeout: 30s
+    mbeanregistry:
+      enabled: true
+  compression:
+    enabled: true
+    mime-types: application/json,application/problem+json
+    min-response-size: 2KB
+  error:
+    include-message: never
+    include-stacktrace: never
+    include-binding-errors: never
+  servlet:
+    encoding:
+      charset: UTF-8
+      force: true
+    session:
+      timeout: 8h
+      cookie:
+        name: ANTAM_SESSION
+        http-only: true
+        same-site: lax
+        secure: ${COOKIE_SECURE:false}
+
+management:
+  server:
+    port: ${MANAGEMENT_PORT:9090}
+  endpoints:
+    web:
+      exposure:
+        include: health,info,prometheus,metrics
+  metrics:
+    distribution:
+      percentiles-histogram:
+        http.server.requests: true
+  endpoint:
+    health:
+      probes:
+        enabled: true
+      show-details: never
+      group:
+        readiness:
+          include: readinessState,db,redis
+
+info:
+  app:
+    name: Minh An Clinic
+    description: Hệ thống quản lý bệnh viện Minh An
+    version: 0.1.0
+
+app:
+  realtime:
+    max-connections: ${SSE_MAX_CONNECTIONS:3000}
+    max-per-user: 5
+    max-public-connections: ${SSE_MAX_PUBLIC_CONNECTIONS:1500}
+  redis:
+    channel-prefix: ${REDIS_CHANNEL_PREFIX:antam}
+  cache:
+    session-state-ttl: ${SESSION_STATE_TTL:5s}
+  payments:
+    webhook-secret: ${PAYMENT_WEBHOOK_SECRET:}
+    simulator: ${PAYMENT_SIMULATOR:false}
+    intent-ttl-minutes: ${PAYMENT_INTENT_TTL_MINUTES:15}
+    bank-bin: ${PAYMENT_BANK_BIN:}
+    account-no: ${PAYMENT_ACCOUNT_NO:}
+    account-name: ${PAYMENT_ACCOUNT_NAME:MINH AN CLINIC}
+  vietqr:
+    client-id: ${VIETQR_CLIENT_ID:}
+    api-key: ${VIETQR_API_KEY:}
+  chatbot:
+    master-key: ${APP_AI_CONFIG_MASTER_KEY:}
+    default-base-url: ${AI_DEFAULT_BASE_URL:http://127.0.0.1:20128/v1}
+    qdrant-url: ${QDRANT_URL:http://127.0.0.1:6333}
+    qdrant-key: ${QDRANT_API_KEY:}
+    score-floor: ${RAG_SCORE_FLOOR:0.35}
+  mock-data:
+    enabled: ${MOCK_DATA_ENABLED:false}
+    volume-enabled: ${MOCK_VOLUME_ENABLED:false}
+  security:
+    rate-limit-enabled: ${RATE_LIMIT_ENABLED:true}
+    mfa-master-key: ${MFA_MASTER_KEY:}
+    cookie-secure: ${COOKIE_SECURE:false}
+  zone: Asia/Ho_Chi_Minh
+  frontend-url: ${FRONTEND_URL:http://localhost:3000}
+  smtp:
+    host: ${SMTP_HOST:}
+    port: ${SMTP_PORT:1025}
+    username: ${SMTP_USER:}
+    password: ${SMTP_PASSWORD:}
+    from: ${SMTP_FROM:no-reply@antam.local}
+    starttls: ${SMTP_STARTTLS:false}
+
+springdoc:
+  swagger-ui:
+    path: /swagger-ui.html
+  api-docs:
+    path: /v3/api-docs
+
+logging:
+  pattern:
+    level: "%5p [rid=%X{requestId:-} uid=%X{userId:-}]"
+  level:
+    root: INFO
+    vn.antam.clinic: INFO
+    org.springframework.security: WARN
+
+---
+spring:
+  config:
+    activate:
+      on-profile: "!test"
+management:
+  server:
+    address: ${MANAGEMENT_ADDRESS:127.0.0.1}

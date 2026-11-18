@@ -1,0 +1,150 @@
+{
+  "schemaVersion": 1,
+  "templateVersion": "1.0.0",
+  "type": "RECEIPT",
+  "title": "BIÊN LAI THU TIỀN",
+  "sourceType": "RECEIPT",
+  "officialSourceStates": [
+    "RECORDED"
+  ],
+  "page": {
+    "size": "A4",
+    "orientation": "PORTRAIT",
+    "marginMm": 15
+  },
+  "letterhead": {
+    "logo": "assets/minh-an-logo.png",
+    "clinicName": "clinic.name",
+    "address": "clinic.address",
+    "phone": "clinic.phone",
+    "email": "clinic.email"
+  },
+  "metadata": [
+    {
+      "key": "document.code",
+      "label": "Mã tài liệu"
+    },
+    {
+      "key": "document.issuedAt",
+      "label": "Ngày phát hành"
+    },
+    {
+      "key": "document.sourceVersion",
+      "label": "Phiên bản nguồn"
+    }
+  ],
+  "patientFields": [
+    {
+      "key": "patient.fullName",
+      "label": "Họ và tên"
+    },
+    {
+      "key": "patient.code",
+      "label": "Mã bệnh nhân"
+    },
+    {
+      "key": "patient.dateOfBirth",
+      "label": "Ngày sinh"
+    },
+    {
+      "key": "patient.gender",
+      "label": "Giới tính"
+    },
+    {
+      "key": "patient.phone",
+      "label": "Điện thoại"
+    },
+    {
+      "key": "patient.address",
+      "label": "Địa chỉ"
+    }
+  ],
+  "fields": [
+    {
+      "key": "receipt.code",
+      "label": "Mã biên lai"
+    },
+    {
+      "key": "invoice.code",
+      "label": "Mã hóa đơn"
+    },
+    {
+      "key": "counter.name",
+      "label": "Quầy / nơi thu"
+    },
+    {
+      "key": "receipt.recordedAt",
+      "label": "Thời điểm thu"
+    },
+    {
+      "key": "receipt.cashierName",
+      "label": "Thu ngân"
+    },
+    {
+      "key": "receipt.methodLabel",
+      "label": "Hình thức"
+    },
+    {
+      "key": "receipt.transactionReference",
+      "label": "Mã giao dịch đối soát"
+    }
+  ],
+  "sections": [
+    {
+      "key": "invoice.total",
+      "label": "Tổng tiền hóa đơn (VND)"
+    },
+    {
+      "key": "receipt.amount",
+      "label": "Số tiền thu lần này (VND)"
+    },
+    {
+      "key": "invoice.paid",
+      "label": "Tổng đã thu (VND)"
+    },
+    {
+      "key": "invoice.balance",
+      "label": "Còn phải thu (VND)"
+    },
+    {
+      "key": "receipt.note",
+      "label": "Ghi chú"
+    }
+  ],
+  "table": {
+    "rowsKey": "invoice.lines",
+    "columns": [
+      {
+        "key": "description",
+        "label": "Nội dung"
+      },
+      {
+        "key": "quantityWithUnit",
+        "label": "Số lượng"
+      },
+      {
+        "key": "unitPrice",
+        "label": "Đơn giá"
+      },
+      {
+        "key": "amount",
+        "label": "Thành tiền"
+      }
+    ],
+    "repeatHeader": true
+  },
+  "qr": {
+    "key": "document.businessQrImage",
+    "caption": "QR tra cứu nghiệp vụ",
+    "sizeMm": 24,
+    "visibleWhenPresent": true
+  },
+  "signatures": [
+    "Thu ngân",
+    "Người nộp tiền"
+  ],
+  "footer": "Biên lai ghi nhận khoản đã thu; không dùng QR nghiệp vụ thay cho QR ngân hàng.",
+  "draftWatermark": "BẢN NHÁP",
+  "previewWatermark": "MẪU THIẾT KẾ — CHƯA PHÁT HÀNH",
+  "demoWatermark": "DỮ LIỆU DEMO — KHÔNG DÙNG ĐỂ ĐIỀU TRỊ"
+}

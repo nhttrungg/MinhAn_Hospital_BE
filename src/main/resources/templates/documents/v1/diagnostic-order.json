@@ -1,0 +1,136 @@
+{
+  "schemaVersion": 1,
+  "templateVersion": "1.0.0",
+  "type": "DIAGNOSTIC_ORDER",
+  "title": "PHIẾU CHỈ ĐỊNH CẬN LÂM SÀNG",
+  "sourceType": "DIAGNOSTIC_ORDER",
+  "officialSourceStates": [
+    "ISSUED",
+    "ACCEPTED",
+    "IN_PROGRESS",
+    "COMPLETED"
+  ],
+  "page": {
+    "size": "A4",
+    "orientation": "PORTRAIT",
+    "marginMm": 15
+  },
+  "letterhead": {
+    "logo": "assets/minh-an-logo.png",
+    "clinicName": "clinic.name",
+    "address": "clinic.address",
+    "phone": "clinic.phone",
+    "email": "clinic.email"
+  },
+  "metadata": [
+    {
+      "key": "document.code",
+      "label": "Mã tài liệu"
+    },
+    {
+      "key": "document.issuedAt",
+      "label": "Ngày phát hành"
+    },
+    {
+      "key": "document.sourceVersion",
+      "label": "Phiên bản nguồn"
+    }
+  ],
+  "patientFields": [
+    {
+      "key": "patient.fullName",
+      "label": "Họ và tên"
+    },
+    {
+      "key": "patient.code",
+      "label": "Mã bệnh nhân"
+    },
+    {
+      "key": "patient.dateOfBirth",
+      "label": "Ngày sinh"
+    },
+    {
+      "key": "patient.gender",
+      "label": "Giới tính"
+    },
+    {
+      "key": "patient.phone",
+      "label": "Điện thoại"
+    },
+    {
+      "key": "patient.address",
+      "label": "Địa chỉ"
+    }
+  ],
+  "fields": [
+    {
+      "key": "order.code",
+      "label": "Mã chỉ định"
+    },
+    {
+      "key": "encounter.code",
+      "label": "Mã lần khám"
+    },
+    {
+      "key": "doctor.fullName",
+      "label": "Bác sĩ chỉ định"
+    },
+    {
+      "key": "order.issuedAt",
+      "label": "Ngày chỉ định"
+    },
+    {
+      "key": "room.name",
+      "label": "Phòng thực hiện"
+    },
+    {
+      "key": "invoice.statusLabel",
+      "label": "Thanh toán"
+    }
+  ],
+  "sections": [
+    {
+      "key": "order.diagnosis",
+      "label": "Chẩn đoán / lý do chỉ định"
+    },
+    {
+      "key": "order.instructions",
+      "label": "Ghi chú thực hiện"
+    }
+  ],
+  "table": {
+    "rowsKey": "order.items",
+    "columns": [
+      {
+        "key": "serviceName",
+        "label": "Dịch vụ"
+      },
+      {
+        "key": "quantity",
+        "label": "Số lượng"
+      },
+      {
+        "key": "roomName",
+        "label": "Phòng"
+      },
+      {
+        "key": "note",
+        "label": "Ghi chú"
+      }
+    ],
+    "repeatHeader": true
+  },
+  "qr": {
+    "key": "document.businessQrImage",
+    "caption": "QR tra cứu nghiệp vụ",
+    "sizeMm": 24,
+    "visibleWhenPresent": true
+  },
+  "signatures": [
+    "Bác sĩ chỉ định"
+  ],
+  "footer": "Mang phiếu đến phòng thực hiện sau khi hoàn tất thanh toán.",
+  "draftWatermark": "BẢN NHÁP",
+  "previewWatermark": "MẪU THIẾT KẾ — CHƯA PHÁT HÀNH",
+  "demoWatermark": "DỮ LIỆU DEMO — KHÔNG DÙNG ĐỂ ĐIỀU TRỊ"
+}

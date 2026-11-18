@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "templateVersion": "1.1.0",
+  "type": "EXAMINATION_RESULT",
+  "title": "PHIẾU KẾT QUẢ KHÁM BỆNH",
+  "sourceType": "ENCOUNTER",
+  "officialSourceStates": [
+    "COMPLETED"
+  ],
+  "page": {
+    "size": "A4",
+    "orientation": "PORTRAIT",
+    "marginMm": 15
+  },
+  "letterhead": {
+    "logo": "assets/minh-an-logo.png",
+    "clinicName": "clinic.name",
+    "address": "clinic.address",
+    "phone": "clinic.phone",
+    "email": "clinic.email"
+  },
+  "metadata": [
+    {
+      "key": "document.code",
+      "label": "Mã tài liệu"
+    },
+    {
+      "key": "document.issuedAt",
+      "label": "Ngày phát hành"
+    },
+    {
+      "key": "document.sourceVersion",
+      "label": "Phiên bản nguồn"
+    }
+  ],
+  "patientFields": [
+    {
+      "key": "patient.fullName",
+      "label": "Họ và tên"
+    },
+    {
+      "key": "patient.code",
+      "label": "Mã bệnh nhân"
+    },
+    {
+      "key": "patient.dateOfBirth",
+      "label": "Ngày sinh"
+    },
+    {
+      "key": "patient.gender",
+      "label": "Giới tính"
+    },
+    {
+      "key": "patient.phone",
+      "label": "Điện thoại"
+    },
+    {
+      "key": "patient.address",
+      "label": "Địa chỉ"
+    }
+  ],
+  "fields": [
+    {
+      "key": "encounter.code",
+      "label": "Mã lần khám"
+    },
+    {
+      "key": "doctor.fullName",
+      "label": "Bác sĩ khám"
+    },
+    {
+      "key": "encounter.completedAt",
+      "label": "Ngày hoàn tất"
+    },
+    {
+      "key": "service.name",
+      "label": "Dịch vụ"
+    },
+    {
+      "key": "room.name",
+      "label": "Phòng khám"
+    },
+    {
+      "key": "encounter.followUpDate",
+      "label": "Hẹn tái khám"
+    }
+  ],
+  "sections": [
+    { "key": "encounter.icd10", "label": "Mã chẩn đoán ICD (danh mục demo)" },
+    {
+      "key": "encounter.chiefComplaint",
+      "label": "Lý do khám"
+    },
+    {
+      "key": "encounter.vitals",
+      "label": "Dấu hiệu sinh tồn"
+    },
+    {
+      "key": "encounter.diagnosis",
+      "label": "Chẩn đoán"
+    },
+    {
+      "key": "encounter.conclusion",
+      "label": "Kết luận"
+    },
+    {
+      "key": "encounter.instructions",
+      "label": "Dặn dò"
+    },
+    {
+      "key": "encounter.amendments",
+      "label": "Nội dung bổ sung đã xác nhận"
+    }
+  ],
+  "table": null,
+  "qr": {
+    "key": "document.businessQrImage",
+    "caption": "QR tra cứu nghiệp vụ",
+    "sizeMm": 24,
+    "visibleWhenPresent": true
+  },
+  "signatures": [
+    "Bác sĩ khám"
+  ],
+  "footer": "Kết quả gắn với lần khám và phiên bản ghi trên phiếu.",
+  "draftWatermark": "BẢN NHÁP",
+  "previewWatermark": "MẪU THIẾT KẾ — CHƯA PHÁT HÀNH",
+  "demoWatermark": "DỮ LIỆU DEMO — KHÔNG DÙNG ĐỂ ĐIỀU TRỊ"
+}

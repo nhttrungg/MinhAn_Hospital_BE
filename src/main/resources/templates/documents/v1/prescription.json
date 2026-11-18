@@ -1,0 +1,142 @@
+{
+  "schemaVersion": 1,
+  "templateVersion": "1.1.0",
+  "type": "PRESCRIPTION",
+  "title": "ĐƠN THUỐC",
+  "sourceType": "PRESCRIPTION",
+  "officialSourceStates": [
+    "FINAL"
+  ],
+  "page": {
+    "size": "A4",
+    "orientation": "PORTRAIT",
+    "marginMm": 15
+  },
+  "letterhead": {
+    "logo": "assets/minh-an-logo.png",
+    "clinicName": "clinic.name",
+    "address": "clinic.address",
+    "phone": "clinic.phone",
+    "email": "clinic.email"
+  },
+  "metadata": [
+    {
+      "key": "document.code",
+      "label": "Mã tài liệu"
+    },
+    {
+      "key": "document.issuedAt",
+      "label": "Ngày phát hành"
+    },
+    {
+      "key": "document.sourceVersion",
+      "label": "Phiên bản nguồn"
+    }
+  ],
+  "patientFields": [
+    {
+      "key": "patient.fullName",
+      "label": "Họ và tên"
+    },
+    {
+      "key": "patient.code",
+      "label": "Mã bệnh nhân"
+    },
+    {
+      "key": "patient.dateOfBirth",
+      "label": "Ngày sinh"
+    },
+    {
+      "key": "patient.gender",
+      "label": "Giới tính"
+    },
+    {
+      "key": "patient.phone",
+      "label": "Điện thoại"
+    },
+    {
+      "key": "patient.address",
+      "label": "Địa chỉ"
+    }
+  ],
+  "fields": [
+    {
+      "key": "prescription.code",
+      "label": "Mã đơn"
+    },
+    {
+      "key": "prescription.version",
+      "label": "Phiên bản đơn"
+    },
+    {
+      "key": "encounter.code",
+      "label": "Mã lần khám"
+    },
+    {
+      "key": "doctor.fullName",
+      "label": "Bác sĩ kê đơn"
+    },
+    {
+      "key": "prescription.finalizedAt",
+      "label": "Ngày kê đơn"
+    }
+  ],
+  "sections": [
+    { "key": "encounter.icd10", "label": "Mã chẩn đoán ICD (danh mục demo)" },
+    {
+      "key": "encounter.diagnosis",
+      "label": "Chẩn đoán"
+    },
+    {
+      "key": "prescription.reason",
+      "label": "Lý do bổ sung"
+    },
+    {
+      "key": "prescription.instructions",
+      "label": "Dặn dò"
+    }
+  ],
+  "table": {
+    "rowsKey": "prescription.lines",
+    "columns": [
+      {
+        "key": "name",
+        "label": "Thuốc / hàm lượng"
+      },
+      {
+        "key": "quantityWithUnit",
+        "label": "Số lượng"
+      },
+      {
+        "key": "dose",
+        "label": "Liều dùng"
+      },
+      {
+        "key": "route",
+        "label": "Đường dùng"
+      },
+      {
+        "key": "frequencyAndDays",
+        "label": "Số lần / thời gian"
+      },
+      {
+        "key": "instructions",
+        "label": "Hướng dẫn"
+      }
+    ],
+    "repeatHeader": true
+  },
+  "qr": {
+    "key": "document.businessQrImage",
+    "caption": "QR tra cứu nghiệp vụ",
+    "sizeMm": 24,
+    "visibleWhenPresent": true
+  },
+  "signatures": [
+    "Bác sĩ kê đơn"
+  ],
+  "footer": "Quầy thuốc quét QR để đối chiếu đơn đã chốt; QR trên đơn không phải QR thanh toán.",
+  "draftWatermark": "BẢN NHÁP",
+  "previewWatermark": "MẪU THIẾT KẾ — CHƯA PHÁT HÀNH",
+  "demoWatermark": "DỮ LIỆU DEMO — KHÔNG DÙNG ĐỂ ĐIỀU TRỊ"
+}
